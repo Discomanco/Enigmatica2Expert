@@ -93,3 +93,5 @@ twitch-export-builder.exe
 settings.ps1
 TwitchExportBuilder.exe
 CHANGELOG-GENERATED.md
+config/AppliedEnergistics2/VersionChecker.cfg
+config/AppliedEnergistics2/CustomRecipes.cfg

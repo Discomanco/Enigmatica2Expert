@@ -85,20 +85,20 @@ print("--- loading MiscRecipes.zs ---");
 	40, <liquid:liquiddna> * 250);
 
 # OpenBlocks Glider
-	recipes.remove(<openblocks:generic>);
-	recipes.remove(<openblocks:hang_glider>);
+	recipes.remove(<openglider:hang_glider_part:0>);	
+	recipes.remove(<openglider:hang_glider_part:1>);
 	
-	recipes.addShapedMirrored("Glider Wings", 
-	<openblocks:generic>, 
+	recipes.addShaped("L Hang Glider Part", 
+	<openglider:hang_glider_part:0>, 
+	[[null, <forestry:oak_stick>, <harvestcraft:hardenedleatheritem>],
+	[<forestry:oak_stick>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>], 
+	[<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>]]);
+
+	recipes.addShaped("R Hang Glider Part", 
+	<openglider:hang_glider_part:1>, 
 	[[<harvestcraft:hardenedleatheritem>, <forestry:oak_stick>, null],
 	[<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <forestry:oak_stick>], 
 	[<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>]]);
-	
-	recipes.addShapedMirrored("Hang Glider", 
-	<openblocks:hang_glider>, 
-	[[null, null, null],
-	[<openblocks:generic>, <forestry:oak_stick>, <openblocks:generic>], 
-	[null, null, null]]);
 	
 # Mud conversion
 	recipes.remove(<animania:block_mud>);
@@ -112,13 +112,15 @@ print("--- loading MiscRecipes.zs ---");
 # Iridium conversion
 	recipes.addShapeless(<thermalfoundation:material:135>, [<ic2:misc_resource:1>]);
 	recipes.addShapeless(<ic2:misc_resource:1>, [<thermalfoundation:material:135>]);
-	
+
+//*	
 # Graphite conversion 
 	recipes.addShapeless("Graphite Conversion 1", <bigreactors:ingotmetals:2>, [<nuclearcraft:ingot:8>]);
 	recipes.addShapeless("Graphite Conversion 2", <nuclearcraft:ingot:8>, [<bigreactors:ingotmetals:2>]);
 	
 	recipes.addShapeless("Graphite Conversion 3", <bigreactors:blockmetals:2> * 2, [<nuclearcraft:ingot_block:8>, <nuclearcraft:ingot_block:8>]);
 	recipes.addShapeless("Graphite Conversion 4", <nuclearcraft:ingot_block:8> * 2, [<bigreactors:blockmetals:2>, <bigreactors:blockmetals:2>]);
+*//
 
 # Rustic Slate
 	recipes.addShapeless("slate", 

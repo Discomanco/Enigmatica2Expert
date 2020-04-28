@@ -39,7 +39,7 @@ print("--- loading Cyclic.zs ---");
 	recipes.addShapedMirrored("Air Charm", 
 	<cyclicmagic:charm_air>, 
 	[[<actuallyadditions:item_misc:15>, <bloodmagic:slate:2>, <actuallyadditions:item_misc:15>],
-	[<openblocks:generic>, <extrautils2:goldenlasso>.withTag({Animal:{id:"minecraft:bat"}}), <openblocks:generic>],
+	[<openglider:hang_glider_part:0>, <extrautils2:goldenlasso>.withTag({Animal:{id:"minecraft:bat"}}), <openglider:hang_glider_part:1>],
 	[<actuallyadditions:item_misc:15>, <bloodmagic:slate:2>, <actuallyadditions:item_misc:15>]]);
 	
 	recipes.remove(<cyclicmagic:charm_fire>);
