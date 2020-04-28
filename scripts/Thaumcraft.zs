@@ -14,7 +14,7 @@ mods.thaumcraft.Infusion.registerRecipe("crimson_rites", "INFUSION",
 mods.thaumcraft.Infusion.registerRecipe("spawn_lesser_crimson_portal", "INFUSION", 
 <minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumcraft:cultistportallesser"}}), 15, 
 [<aspect:vitium> * 90, <aspect:mortuus> * 45, <aspect:praecantatio> * 90, <aspect:auram> * 30], 
-<openblocks:golden_egg>, 
+<randomthings:weatheregg:2>, 
 [<thaumcraft:metal_thaumium>, <thaumcraft:void_seed>, <thaumcraft:salis_mundus>, <thaumcraft:void_seed>, <minecraft:skull:1>, <thaumcraft:void_seed>, <extrautils2:teleporter:1>, <thaumcraft:void_seed>]);
 
 # Unification for the Smelting Bonus
@@ -36,7 +36,6 @@ mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:oreSilver>, <thermalfoundati
 mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:oreLead>, <thermalfoundation:material:195> % 33);
 
 # Removing wrong aspects from stuff
-	<chiselsandbits:chiseled_iron>.setAspects(<aspect:desiderium> * 1);
 	<ic2:dust:21>.setAspects(<aspect:metallum> * 1);
 	
 # Temp Recipes

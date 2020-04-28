@@ -95,3 +95,8 @@ TwitchExportBuilder.exe
 CHANGELOG-GENERATED.md
 config/AppliedEnergistics2/VersionChecker.cfg
 config/AppliedEnergistics2/CustomRecipes.cfg
+config/vanillafix.cfg
+config/vanillafix/config_version
+config/vanillafix/methods-stable_39.csv
+config/IC2.ini
+config/splash.properties

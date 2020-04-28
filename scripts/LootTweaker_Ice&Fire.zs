@@ -24,7 +24,7 @@ print("--- loading LootTweaker_Ice&Fire.zs ---");
 	
 	val caveloot = [
 	<environmentaltech:litherite_crystal>,
-	<bigreactors:ingotmetals:3>,
+	<minecraft:dirt>,
 	<ic2:nuclear:7>,
 	<minecraft:gold_block>,
 	<thermalfoundation:material:70>,

@@ -3,7 +3,7 @@ import mods.astralsorcery.Utils;
 
 print("--- loading Endergy.zs ---");
 
-//*
+/*
 # Anglesite - Crystal made of ThermalExpansion/EnvironmentalTech/Ender IO/AE2 materials
 	mods.extendedcrafting.CombinationCrafting.addRecipe(<minecraft:dirt>, 100000000, 1000000, 
 	<appliedenergistics2:material:48>, [<thermalfoundation:material:894>,
@@ -29,7 +29,7 @@ print("--- loading Endergy.zs ---");
 # Blutonium Block
 	recipes.remove(<minecraft:dirt>);
 	recipes.addShapedMirrored("Blutonium Block", 
-	<minecraft::blockmetals:3>, 
+	<minecraft:dirt>, 
 	[[<ore:blockMithril>, <ore:blockCobalt>, <ore:blockMithril>],
 	[<ic2:nuclear:7>, <ic2:nuclear:7>, <ic2:nuclear:7>], 
 	[<ore:blockCyanite>, <actuallyadditions:block_crystal_empowered:1>, <ore:blockCyanite>]]);
@@ -40,7 +40,7 @@ print("--- loading Endergy.zs ---");
 	[<minecraft:dirt>]);
 # Blutonium Ingot -> Block
 	recipes.addShaped("Blutonium Ingots to Block", 
-	<minecraft::blockmetals:3>, 
+	<minecraft:43>, 
 	[[<ore:ingotBlutonium>, <ore:ingotBlutonium>, <ore:ingotBlutonium>],
 	[<ore:ingotBlutonium>, <ore:ingotBlutonium>, <ore:ingotBlutonium>], 
 	[<ore:ingotBlutonium>, <ore:ingotBlutonium>, <ore:ingotBlutonium>]]);
@@ -54,8 +54,8 @@ print("--- loading Endergy.zs ---");
 	40, <liquid:liquiddna> * 1000);
 	
 	recipes.addShaped("Ludicrite Block From Ingots", 
-	<minecraft::blockmetals:4>, 
+	<minecraft:dirt>, 
 	[[<ore:ingotLudicrite>, <ore:ingotLudicrite>, <ore:ingotLudicrite>],
 	[<ore:ingotLudicrite>, <ore:ingotLudicrite>, <ore:ingotLudicrite>], 
 	[<ore:ingotLudicrite>, <ore:ingotLudicrite>, <ore:ingotLudicrite>]]);
-	*//
+*/
