@@ -40,7 +40,7 @@ print("--- loading DraconicEvolution.zs ---");
 	recipes.remove(<draconicevolution:draconic_core>);
 	recipes.addShapedMirrored("Draconic Core", 
 	<draconicevolution:draconic_core>, 
-	[[<ore:blockDraconium>, <ore:ingotBlutonium>, <ore:blockDraconium>],
+	[[<ore:blockDraconium>, <minecraft:dirt>, <ore:blockDraconium>],
 	[<ore:crystalLitherite>, <gendustry:genetics_processor>, <ore:crystalLitherite>], 
 	[<ore:plateElite>, <draconicevolution:dislocator>, <ore:plateElite>]]);
 
@@ -49,7 +49,7 @@ print("--- loading DraconicEvolution.zs ---");
 	mods.forestry.Carpenter.addRecipe(<draconicevolution:wyvern_core>, 
 	[[<ore:shulkerShell>, <draconicevolution:draconic_core>, <ore:shulkerShell>],
 	[<draconicevolution:draconic_core>, <minecraft:nether_star>, <draconicevolution:draconic_core>], 
-	[<ore:ingotLudicrite>, <environmentaltech:pladium>, <ore:ingotLudicrite>]], 
+	[<minecraft:dirt>, <environmentaltech:pladium>, <minecraft:dirt>]], 
 	40, <liquid:mana> * 1000);
 
 # Draconic Energy Core
