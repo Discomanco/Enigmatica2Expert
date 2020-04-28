@@ -100,3 +100,4 @@ config/vanillafix/config_version
 config/vanillafix/methods-stable_39.csv
 config/IC2.ini
 config/splash.properties
+config/AppliedEnergistics2/CustomRecipes.cfg
