@@ -189,11 +189,6 @@ print("--- loading ArmoreableMobs.zs ---");
 	magicalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <botania:manaweavechest>, 10, 0.15));
 	magicalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <botania:manaweavelegs>, 10, 0.15));
 	magicalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <botania:manaweaveboots>, 10, 0.15));
-
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("head", <psi:psimetal_exosuit_helmet>, 5, 0.05));
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <psi:psimetal_exosuit_chestplate>, 5, 0.05));
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <psi:psimetal_exosuit_leggings>, 5, 0.05));
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <psi:psimetal_exosuit_boots>, 5, 0.05));
 		
 	magicalGroup.addArmor(ArmorHandler.createArmorSlot("head", <botania:manasteelhelm>, 10, 0.1));
 	magicalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <botania:manasteelchest>, 10, 0.1));
