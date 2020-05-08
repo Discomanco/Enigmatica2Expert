@@ -106,7 +106,11 @@ import mods.jei.JEI.removeAndHide as rh;
 	<botania:terrasteelchest>,
 	<botania:terrasteellegs>,
 	<botania:terrasteelboots>,
-	<botania:terrasteelhelmreveal>
+	<botania:terrasteelhelmreveal>,
+	<thaumcraft:thaumium_helm>,
+	<thaumcraft:thaumium_chest>,
+	<thaumcraft:thaumium_legs>,
+	<thaumcraft:thaumium_boots>	
 	] as IItemStack[];
 	
 		for item in magicalArmor {
@@ -119,10 +123,15 @@ import mods.jei.JEI.removeAndHide as rh;
 	recipes.addShaped(<botania:terrasteelhelm>, [[<ore:dreamwoodTwig>, <ore:runeSpringB>, <ore:dreamwoodTwig>],[<ore:ingotTerrasteel>, <botania:elementiumhelm>, <ore:ingotTerrasteel>], [null, <ore:ingotTerrasteel>, null]]);
 	recipes.addShapeless(<botania:terrasteelhelmreveal>, [<botania:terrasteelhelm>.anyDamage(),<thaumcraft:goggles>.anyDamage()]);
 
-	recipes.addShaped(<botania:elementiumboots>, [[<ore:ingotElvenElementium>, null, <ore:ingotElvenElementium>],[<ore:ingotElvenElementium>, <minecraft:dirt>, <ore:ingotElvenElementium>], [null, null, null]]);
-	recipes.addShaped(<botania:elementiumlegs>, [[<ore:ingotElvenElementium>, <ore:ingotElvenElementium>, <ore:ingotElvenElementium>],[<ore:ingotElvenElementium>, <minecraft:dirt>, <ore:ingotElvenElementium>], [<ore:ingotElvenElementium>, null, <ore:ingotElvenElementium>]]);
-	recipes.addShaped(<botania:elementiumchest>, [[<ore:ingotElvenElementium>, <minecraft:dirt>, <ore:ingotElvenElementium>],[<ore:ingotElvenElementium>, <ore:ingotElvenElementium>, <ore:ingotElvenElementium>], [<ore:ingotElvenElementium>, <ore:ingotElvenElementium>, <ore:ingotElvenElementium>]]);
-	recipes.addShaped(<botania:elementiumhelm>, [[<ore:ingotElvenElementium>, <ore:ingotElvenElementium>, <ore:ingotElvenElementium>],[<ore:ingotElvenElementium>, <minecraft:dirt>, <ore:ingotElvenElementium>], [null, null, null]]);
+	recipes.addShaped(<botania:elementiumboots>, [[<ore:ingotElvenElementium>, null, <ore:ingotElvenElementium>],[<ore:ingotElvenElementium>, <thaumcraft:thaumium_boots>, <ore:ingotElvenElementium>], [null, null, null]]);
+	recipes.addShaped(<botania:elementiumlegs>, [[<ore:ingotElvenElementium>, <ore:ingotElvenElementium>, <ore:ingotElvenElementium>],[<ore:ingotElvenElementium>, <thaumcraft:thaumium_legs>, <ore:ingotElvenElementium>], [<ore:ingotElvenElementium>, null, <ore:ingotElvenElementium>]]);
+	recipes.addShaped(<botania:elementiumchest>, [[<ore:ingotElvenElementium>, <thaumcraft:thaumium_chest>, <ore:ingotElvenElementium>],[<ore:ingotElvenElementium>, <ore:ingotElvenElementium>, <ore:ingotElvenElementium>], [<ore:ingotElvenElementium>, <ore:ingotElvenElementium>, <ore:ingotElvenElementium>]]);
+	recipes.addShaped(<botania:elementiumhelm>, [[<ore:ingotElvenElementium>, <ore:ingotElvenElementium>, <ore:ingotElvenElementium>],[<ore:ingotElvenElementium>, <thaumcraft:thaumium_helm>, <ore:ingotElvenElementium>], [null, null, null]]);
+	
+	recipes.addShaped(<thaumcraft:thaumium_boots>, [[<ore:ingotThaumium>, null, <ore:ingotThaumium>],[<ore:ingotThaumium>, <botania:manasteelboots>, <ore:ingotThaumium>], [null, null, null]]);
+	recipes.addShaped(<thaumcraft:thaumium_legs>, [[<ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>],[<ore:ingotThaumium>, <botania:manasteellegs>, <ore:ingotThaumium>], [<ore:ingotThaumium>, null, <ore:ingotThaumium>]]);
+	recipes.addShaped(<thaumcraft:thaumium_chest>, [[<ore:ingotThaumium>, <botania:manasteelchest>, <ore:ingotThaumium>],[<ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>], [<ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>]]);
+	recipes.addShaped(<thaumcraft:thaumium_helm>, [[<ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>],[<ore:ingotThaumium>, <botania:manasteelhelm>, <ore:ingotThaumium>], [null, null, null]]);
 
 	recipes.addShaped(<botania:manasteelboots>, [[<ore:ingotManasteel>, null, <ore:ingotManasteel>],[<ore:ingotManasteel>, <botania:manaweaveboots>.anyDamage(), <ore:ingotManasteel>], [null, null, null]]);
 	recipes.addShaped(<botania:manasteellegs>, [[<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>],[<ore:ingotManasteel>, <botania:manaweavelegs>.anyDamage(), <ore:ingotManasteel>], [<ore:ingotManasteel>, null, <ore:ingotManasteel>]]);
