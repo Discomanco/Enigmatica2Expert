@@ -16,7 +16,7 @@ print("--- loading WirelessCraftingTerminal.zs ---");
 	recipes.addShaped("Infinity Booster Card", 
 	<ae2wtlib:infinity_booster_card>, 
 	[[<appliedenergistics2:quantum_link>, <appliedenergistics2:material:47>, <appliedenergistics2:quantum_link>],
-	[<minecraft:dirt>, <extracells:storage.component:1>, <minecraft:dirt>], 
+	[<ore:gemCarobbiite>, <extracells:storage.component:1>, <ore:gemCarobbiite>], 
 	[<appliedenergistics2:quantum_link>, <appliedenergistics2:material:47>, <appliedenergistics2:quantum_link>]]);
 
 	print("--- WirelessCraftingTerminal.zs initialized ---");

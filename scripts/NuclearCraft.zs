@@ -1,6 +1,10 @@
 import mods.jei.JEI.removeAndHide as rh;
 #modloaded nuclearcraft
 
+# Adjustments to avoid Carobbiite gem 
+	mods.nuclearcraft.manufactory.removeRecipeWithOutput(<nuclearcraft:gem_dust:9>);
+	mods.nuclearcraft.pressurizer.removeRecipeWithOutput(<nuclearcraft:gem:4>);
+
 # Removing an Obsidian dupe
 mods.nuclearcraft.melter.removeRecipeWithInput(<ore:obsidian>);
 mods.nuclearcraft.melter.removeRecipeWithInput(<ore:dustObsidian>);

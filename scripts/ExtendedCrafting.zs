@@ -45,7 +45,7 @@ print("--- loading ExtendedCrafting.zs ---");
 	
 	mods.thermalexpansion.InductionSmelter.addRecipe
 	(<extendedcrafting:material> * 3, 
-	<thermalfoundation:storage_alloy:2>, <minecraft:dirt>, 15000);	
+	<thermalfoundation:storage_alloy:2>, <nuclearcraft:ingot_block:8>, 15000);	
 	
 # Crafting Core
 	recipes.remove(<extendedcrafting:crafting_core>);

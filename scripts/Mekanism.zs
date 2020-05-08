@@ -171,7 +171,7 @@ for input, output in itemsToUnify {
 	recipes.addShaped("Elite Tier Installer", 
 	<mekanism:tierinstaller:2>, 
 	[[<ore:alloyUltimate>, <ore:circuitUltimate>, <ore:alloyUltimate>],
-	[<minecraft:dirt>, <mekanism:basicblock:8>, <minecraft:dirt>], 
+	[<ore:ingotMelodicAlloy>, <mekanism:basicblock:8>, <ore:ingotMelodicAlloy>], 
 	[<ore:alloyUltimate>, <ore:circuitUltimate>, <ore:alloyUltimate>]]);
 
 # Quantum Entangloporter

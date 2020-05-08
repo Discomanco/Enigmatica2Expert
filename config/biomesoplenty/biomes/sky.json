@@ -21,7 +21,7 @@
       "maxRadius": 7,
       "generationAttempts": 1500,
       "amountPerChunk": 12.0,
-      "enable": true
+      "enable": false
     },
     "miners_delight": {
       "with": {

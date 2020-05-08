@@ -55,6 +55,14 @@ print("--- loading IntegratedDynamics.zs ---");
 	[[<integrateddynamics:crystalized_menril_chunk>,<integrateddynamics:crystalized_menril_chunk>,<integrateddynamics:crystalized_menril_chunk>],
 	[<ore:dustRedstone>,<xnet:netcable>,<ore:dustRedstone>],
 	[<integrateddynamics:crystalized_menril_chunk>,<integrateddynamics:crystalized_menril_chunk>,<integrateddynamics:crystalized_menril_chunk>]]);
+	
+# Omni-Directional Connector
+	recipes.remove(<integrateddynamics:part_connector_omni_directional_item>);
+	recipes.addShaped("Omni-Directional Connector",
+	<integrateddynamics:part_connector_omni_directional_item> * 2, 
+	[[null, <integrateddynamics:logic_director>, null],
+	[<enderstorage:ender_storage>, <integrateddynamics:cable>, <enderstorage:ender_storage:1>], 
+	[null, <integrateddynamics:logic_director>, null]]);
 
 	
 		print("--- IntegratedDynamics.zs initialized ---");
