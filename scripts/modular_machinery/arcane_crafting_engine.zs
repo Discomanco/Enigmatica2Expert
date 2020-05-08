@@ -196,9 +196,3 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_redstone_inlay", 
 	.addItemInput(<ore:ingotGold>)
 	.addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}))
 	.build();
-
-mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_essentia_funnel", machineName, 20)
-	.addItemOutput(<thaumictinkerer:funnel>)
-	.addItemInput(<minecraft:stone:*>)
-	.addItemInput(<ore:ingotThaumium>)
-	.build();
