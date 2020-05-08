@@ -83,7 +83,7 @@ print("--- loading Avaritia.zs ---");
 	[<ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>, <avaritia:cosmic_meatballs>, 
 	<avaritia:ultimate_stew>, <avaritia:endest_pearl>, <ore:record>, 
 	<draconicevolution:awakened_core>, <ore:blockDraconiumAwakened>, 
-	<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, 
+	<ore:blockStellarAlloy>, <ore:gemCarobbiite>, <biomesoplenty:crystal_shard>, 
 	<ore:dragonEgg>, <extendedcrafting:storage:7>, <ore:blockAethium>, 
 	<ore:plateElite>, <ore:blockTitaniumAluminide>, <ore:blockTitaniumIridium>, 
 	<ore:blockEvilMetal>, <ore:blockDemonicMetal>, <ore:blockMirion>, 
