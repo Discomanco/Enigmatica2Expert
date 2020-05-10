@@ -101,3 +101,7 @@ config/vanillafix/methods-stable_39.csv
 config/IC2.ini
 config/splash.properties
 config/AppliedEnergistics2/CustomRecipes.cfg
+config/splash.properties
+config/IC2.ini
+config/astralsorcery/amulet_enchantments.cfg
+config/AppliedEnergistics2/VersionChecker.cfg
