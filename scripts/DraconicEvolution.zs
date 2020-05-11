@@ -40,7 +40,7 @@ print("--- loading DraconicEvolution.zs ---");
 	recipes.remove(<draconicevolution:draconic_core>);
 	recipes.addShapedMirrored("Draconic Core", 
 	<draconicevolution:draconic_core>, 
-	[[<ore:blockDraconium>, <minecraft:dirt>, <ore:blockDraconium>],
+	[[<ore:blockDraconium>, <ore:ingotMelodicAlloy>, <ore:blockDraconium>],
 	[<ore:crystalLitherite>, <gendustry:genetics_processor>, <ore:crystalLitherite>], 
 	[<ore:plateElite>, <draconicevolution:dislocator>, <ore:plateElite>]]);
 
