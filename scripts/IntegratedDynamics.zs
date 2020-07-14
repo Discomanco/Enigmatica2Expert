@@ -63,6 +63,11 @@ print("--- loading IntegratedDynamics.zs ---");
 	[[null, <integrateddynamics:logic_director>, null],
 	[<enderstorage:ender_storage>, <integrateddynamics:cable>, <enderstorage:ender_storage:1>], 
 	[null, <integrateddynamics:logic_director>, null]]);
+	
+# Menril Sapling
+	recipes.addShapeless("Menril Sapling",
+	<integrateddynamics:menril_sapling>,
+	[<ore:treeSapling>,<tconstruct:materials:10>]);
 
 	
 		print("--- IntegratedDynamics.zs initialized ---");
