@@ -572,3 +572,9 @@ for item in thaumcraftHintItems {
 					format.lightPurple(((450 as float) / 100) as string) ~ format.darkPurple(" mB UU"));
 
 	<modularmachinery:itemmodularium>.displayName = "Modularium Alloy";
+	
+# Tooltips for TE Upgrades
+	<thermalfoundation:upgrade:3>.addTooltip(format.yellow("Increases Augment Slots to 9"));
+	<thermalfoundation:upgrade:2>.addTooltip(format.yellow("Increases Augment Slots to 5"));
+	<thermalfoundation:upgrade:1>.addTooltip(format.yellow("Increases Augment Slots to 3"));
+	

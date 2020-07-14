@@ -185,5 +185,31 @@ print("--- loading ThermalExpansion.zs ---");
 
 # Hardened Cell Frame
 	mods.actuallyadditions.Empowerer.addRecipe(<thermalexpansion:frame:129>, <thermalexpansion:frame:128>, <immersiveengineering:material:2>, <thermalfoundation:material:354>, <thermalfoundation:material:290>, <mekanism:basicblock:8>, 2500000, 200, [0.25, 0.25, 0.29]);
+	
+# Resonant Upgrade Kit
+	recipes.remove(<thermalfoundation:upgrade:3>);
+	recipes.addShapedMirrored("Resonant Upgrade Kit",
+	<thermalfoundation:upgrade:3>,
+	[[null,<ore:ingotEnderium>,null],
+	[<ore:clathrateEnder>,<thermalfoundation:upgrade:2>,<ore:clathrateEnder>],
+	[<ore:dustPyrotheum>,<ore:ingotEnderium>,<ore:dustPyrotheum>]]);
+	
+# Signalum Upgrade Kit
+	recipes.remove(<thermalfoundation:upgrade:2>);
+	recipes.addShapedMirrored("Signalum Upgrade Kit",
+	<thermalfoundation:upgrade:2>,
+	[[null,<ore:ingotSignalum>,null],
+	[<ore:plateElite>,<thermalfoundation:upgrade:1>,<ore:plateElite>],
+	[<ore:dustCryotheum>,<ore:ingotSignalum>,<ore:dustCryotheum>]]);
+	
+# Reinforced Upgrade Kit
+	recipes.remove(<thermalfoundation:upgrade:1>);
+	recipes.addShapedMirrored("Reinforced Upgrade Kit",
+	<thermalfoundation:upgrade:1>,
+	[[null,<ore:ingotElectrum>,null],
+	[<ore:ingotElectrum>,<thermalfoundation:upgrade>,<ore:ingotElectrum>],
+	[<ore:blockGlassHardened>,<ore:ingotElectrum>,<ore:blockGlassHardened>]]);
+	
+
 
 		print("--- ThermalExpansion.zs initialized ---");
