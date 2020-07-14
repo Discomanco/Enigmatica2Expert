@@ -83,4 +83,10 @@ print("--- loading DraconicEvolution.zs ---");
 	<draconicevolution:draconic_core>, 
 	<liquid:redstone> * 10000, 250000);
 
+# Potentiometer
+	recipes.remove(<draconicevolution:potentiometer>);
+	recipes.addShapedMirrored("Potentiometer", <draconicevolution:potentiometer>,
+	[[null,<ore:plankWood>,null],
+	[<ore:dustRedstone>,<randomthings:advancedredstonetorch_on>,<ore:dustRedstone>],
+	[<minecraft:stone_slab>,<minecraft:stone_slab>,<minecraft:stone_slab>]]);
 		print("--- DraconicEvolution.zs initialized ---");
