@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IIngredient as IIngredient;
 import mods.jei.JEI.removeAndHide as rh;
 #modloaded enderio
 print("--- loading EnderIO.zs ---");
@@ -227,6 +228,10 @@ for silicon in <ore:itemSilicon>.items {
 		[<ore:ingotElectricalSteel>, <enderio:item_conduit_probe>, <ore:ingotElectricalSteel>], 
 		[<ore:ingotElectricalSteel>, <nuclearcraft:part:10> | <teslacorelib:machine_case> | <actuallyadditions:block_misc:9> | <mekanism:basicblock:8>, <ore:ingotElectricalSteel>], 
 		[<ore:ingotElectricalSteel>, <enderio:item_power_conduit>, <ore:ingotElectricalSteel>]]);
+		
+# Grains of Infinity duping	
+	mods.extendedcrafting.CompressionCrafting.addRecipe(<enderio:block_infinity:1>, 
+	<enderio:item_material:20>, 40, <enderio:item_material:75>, 100000000, 20000000);
 
 # Removals
 	rh(<enderio:block_simple_stirling_generator>);

@@ -191,3 +191,7 @@ print("--- loading ExtraUtilities2.zs ---");
 # Resonating Redstone Crystal
 	recipes.removeShapeless(<extrautils2:ingredients> * 2, 
 	[<minecraft:redstone_ore>, <thermalfoundation:material:1027>]);
+	
+# Cobblestone Duping
+	mods.extendedcrafting.CompressionCrafting.addRecipe(<extrautils2:compressedcobblestone:7>, 
+	<extrautils2:compressedcobblestone:2>, 13000, <appliedenergistics2:material:47>, 100000000, 20000000);
