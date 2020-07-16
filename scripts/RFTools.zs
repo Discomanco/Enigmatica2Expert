@@ -82,7 +82,7 @@ print("--- loading RFTools.zs ---");
 	recipes.addShapedMirrored("Quarry Card",
 	<rftools:shape_card:2>, 
 	[[<rftools:machine_frame>, <tconstruct:hammer_head>.withTag({Material: "osgloglas"}), <rftools:machine_frame>],
-	[<tconstruct:hammer_head>.withTag({Material: "manyullyn"}), <thermalexpansion:frame:146>, <tconstruct:hammer_head>.withTag({Material: "psimetal"})], 
+	[<tconstruct:hammer_head>.withTag({Material: "manyullyn"}), <thermalexpansion:frame:146>, <tconstruct:hammer_head>.withTag({Material: "terrasteel"})], 
 	[<rftools:machine_frame>, <tconstruct:hammer_head>.withTag({Material: "enderium_plustic"}), <rftools:machine_frame>]]);
 	
 	recipes.addShaped("Quarry Card Clearing to Normal", 
