@@ -146,5 +146,8 @@ print("--- loading MysticalAgradditions.zs ---");
 			<ore:ingotInsanium>, <ore:ingotInsanium>, <ore:ingotInsanium>, <ore:ingotInsanium>, 
 			<ore:blockNetherStar>],
 			"astralsorcery.constellation.aevitas");
-				
+			
+# Insanium Essence shortcut
+	mods.extendedcrafting.CompressionCrafting.addRecipe(<mysticalagradditions:insanium>, 
+	<mysticalagriculture:crafting>, 512, <mysticalagriculture:master_infusion_crystal>, 200000000, 20000000);				
 	print("--- MysticalAgradditions.zs initialized ---");
