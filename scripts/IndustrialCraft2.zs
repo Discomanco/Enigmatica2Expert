@@ -180,5 +180,8 @@ print("--- loading IndustrialCraft2.zs ---");
 # Diamond Dust
 	recipes.remove(<ic2:dust:5>);
 	
+# Recycler
+	recipes.remove(<ic2:te:48>);
+	
 
 	print("--- IndustrialCraft2.zs initialized ---");
