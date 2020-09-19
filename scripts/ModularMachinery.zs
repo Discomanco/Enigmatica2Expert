@@ -37,6 +37,13 @@ print("--- loading ModularMachinery.zs ---");
 	[[<ore:ingotModularium>, <ore:circuitAdvanced>, <ore:ingotModularium>],
 	[<ore:circuitAdvanced>, <immersiveengineering:blueprint>.anyDamage(), <ore:circuitAdvanced>], 
 	[<ore:ingotModularium>, <ore:circuitAdvanced>, <ore:ingotModularium>]]);
+	
+# Advanced Scrap Factory
+	recipes.addShapedMirrored("Advanced Scrap Factory", 
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:advanced_scrap_factory"}), 
+	[[<modularmachinery:blockcasing>, <ore:gearVibrant>, <modularmachinery:blockcasing>],
+	[<forge:bucketfilled>.withTag({FluidName: "ic2pahoehoe_lava", Amount: 1000}), <immersiveengineering:blueprint>.anyDamage(), <forge:bucketfilled>.withTag({FluidName: "ic2distilled_water", Amount: 1000})], 
+	[<modularmachinery:blockcasing>, <ore:gearVibrant>, <modularmachinery:blockcasing>]]);
 
 # Machine Vent
     recipes.remove(<modularmachinery:blockcasing:1>);
