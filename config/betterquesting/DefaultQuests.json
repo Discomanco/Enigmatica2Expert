@@ -51495,12 +51495,9 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "bq_standard:loot_chest",
+              "id:8": "cookingforblockheads:sink",
               "Count:3": 1,
-              "Damage:2": 101,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           }
