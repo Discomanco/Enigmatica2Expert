@@ -99,22 +99,6 @@ print("--- loading MysticalAgradditions.zs ---");
 			<minecraft:nether_star>],
 			"astralsorcery.constellation.mineralis");
 			
-# Enderium Seeds
-	recipes.remove(<mysticalagriculture:enderium_seeds>);
-	mods.astralsorcery.Altar.addTraitAltarRecipe("enigmatica2expert:shaped/internal/altar/enderium_seeds",
-		<mysticalagriculture:enderium_seeds>, 3500, 600, [
-            <ore:essenceTier5>, <ore:blockInsaniumEssence>, <ore:essenceTier5>,
-            <ore:blockInsaniumEssence>, <mysticalagradditions:insanium:1>, <ore:blockInsaniumEssence>,
-            <ore:essenceTier5>, <ore:blockInsaniumEssence>, <ore:essenceTier5>,
-            <ore:ingotInsanium>, <ore:ingotInsanium>, <ore:ingotInsanium>, <ore:ingotInsanium>,
-            <ore:blockEnderium>, <ore:blockEnderium>,
-            <astralsorcery:itemcoloredlens:2>, <astralsorcery:itemcoloredlens:2>,
-            <ore:ingotCrystaltine>, <ore:ingotCrystaltine>,
-            <ore:blockEnderium>, <ore:blockEnderium>,
-			<ore:ingotInsanium>, <ore:ingotInsanium>, <ore:ingotInsanium>, <ore:ingotInsanium>, 
-			<minecraft:nether_star>],
-			"astralsorcery.constellation.mineralis");
-			
 # Terrasteel Seeds
 	recipes.remove(<mysticalagriculture:terrasteel_seeds>);
 	mods.astralsorcery.Altar.addTraitAltarRecipe("enigmatica2expert:shaped/internal/altar/terrasteel_seeds",

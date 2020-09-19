@@ -246,7 +246,6 @@ for item in thaumcraftHintItems {
 
 # Mystical Agriculture Seeds Tier 5 -> 6
 	<mysticalagriculture:ender_amethyst_seeds>.addTooltip("Tier: " + format.darkPurple("6"));
-	<mysticalagriculture:enderium_seeds>.addTooltip("Tier: " + format.darkPurple("6"));
 	<mysticalagriculture:iridium_seeds>.addTooltip("Tier: " + format.darkPurple("6"));
 	<mysticalagriculture:terrasteel_seeds>.addTooltip("Tier: " + format.darkPurple("6"));
 	
