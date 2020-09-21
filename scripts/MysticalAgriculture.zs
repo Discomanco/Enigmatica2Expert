@@ -49,14 +49,14 @@ recipes.addShapedMirrored("Wither Proof Glass",
 	
 # Infusion Crystal
 	recipes.remove(<mysticalagriculture:infusion_crystal>);
-	mods.thermalexpansion.Infuser.addRecipe(<mysticalagriculture:infusion_crystal>, <biomesoplenty:gem>, 10000000);
+	mods.thermalexpansion.Infuser.addRecipe(<mysticalagriculture:infusion_crystal>, <contenttweaker:amethyst>, 10000000);
 
 # Master Infusion Crystal
 	recipes.remove(<mysticalagriculture:master_infusion_crystal>);
 	mods.astralsorcery.Altar.addConstellationAltarRecipe("enigmatica2expert:shaped/internal/altar/master_infusion_crystal",
 		<mysticalagriculture:master_infusion_crystal>, 3000, 600, 
 	[<botania:rune:12>, <botania:storage:3>, <botania:rune:15>,
-	<botania:storage:2>, <biomesoplenty:gem>, <botania:storage>,
+	<botania:storage:2>, <contenttweaker:amethyst>, <botania:storage>,
 	<botania:rune:11>, <botania:storage:1>, <botania:rune:10>,
 	<botania:spark>, <botania:spark>, <botania:spark>, <botania:spark>,
 	<astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <botania:manaresource:1>, <botania:manaresource:1>,
@@ -345,7 +345,7 @@ recipes.addShapedMirrored("Wither Proof Glass",
 	<actuallyadditions:block_misc:6>, <actuallyadditions:block_misc:6>, <actuallyadditions:block_misc:8>, <actuallyadditions:block_misc:8>]);
 
 # Ruby Seeds
-	recipes.remove(<mysticalagriculture:ruby_seeds>);
+/*	recipes.remove(<mysticalagriculture:ruby_seeds>);
 	mods.astralsorcery.Altar.addAttunementAltarRecipe("enigmatica2expert:shaped/internal/altar/ruby_seeds",
 	<mysticalagriculture:ruby_seeds>, 600, 200, 
 	[<ore:essenceTier3>, <ore:blockSuperiumEssence>, <ore:essenceTier3>,
@@ -353,7 +353,7 @@ recipes.addShapedMirrored("Wither Proof Glass",
 	<ore:essenceTier3>, <ore:blockSuperiumEssence>, <ore:essenceTier3>,
 	
 	<biomesoplenty:gem_block:1>, <biomesoplenty:gem_block:1>, <biomesoplenty:gem_block:1>, <biomesoplenty:gem_block:1>]);
-
+*/
 # Fiery_Ingot Seeds
 	recipes.remove(<mysticalagriculture:fiery_ingot_seeds>);
 	mods.astralsorcery.Altar.addAttunementAltarRecipe("enigmatica2expert:shaped/internal/altar/fiery_ingot_seeds",
@@ -395,7 +395,7 @@ recipes.addShapedMirrored("Wither Proof Glass",
 	<ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>]);
 
 # Peridot Seeds
-	recipes.remove(<mysticalagriculture:peridot_seeds>);
+/*	recipes.remove(<mysticalagriculture:peridot_seeds>);
 	mods.astralsorcery.Altar.addAttunementAltarRecipe("enigmatica2expert:shaped/internal/altar/peridot_seeds",
 	<mysticalagriculture:peridot_seeds>, 600, 200, 
 	[<ore:essenceTier3>, <ore:blockSuperiumEssence>, <ore:essenceTier3>,
@@ -403,7 +403,7 @@ recipes.addShapedMirrored("Wither Proof Glass",
 	<ore:essenceTier3>, <ore:blockSuperiumEssence>, <ore:essenceTier3>,
 	
 	<biomesoplenty:gem_block:2>, <biomesoplenty:gem_block:2>, <biomesoplenty:gem_block:2>, <biomesoplenty:gem_block:2>]);
-
+*/
 # Cobalt Seeds
 	recipes.remove(<mysticalagriculture:cobalt_seeds>);
 	mods.astralsorcery.Altar.addAttunementAltarRecipe("enigmatica2expert:shaped/internal/altar/cobalt_seeds",
@@ -415,7 +415,7 @@ recipes.addShapedMirrored("Wither Proof Glass",
 	<ore:blockCobalt>, <ore:blockCobalt>, <ore:blockCobalt>, <ore:blockCobalt>]);
 
 # Sapphire Seeds
-	recipes.remove(<mysticalagriculture:sapphire_seeds>);
+/*	recipes.remove(<mysticalagriculture:sapphire_seeds>);
 	mods.astralsorcery.Altar.addAttunementAltarRecipe("enigmatica2expert:shaped/internal/altar/sapphire_seeds",
 	<mysticalagriculture:sapphire_seeds>, 600, 200, 
 	[<ore:essenceTier3>, <ore:blockSuperiumEssence>, <ore:essenceTier3>,
@@ -423,7 +423,7 @@ recipes.addShapedMirrored("Wither Proof Glass",
 	<ore:essenceTier3>, <ore:blockSuperiumEssence>, <ore:essenceTier3>,
 	
 	<biomesoplenty:gem_block:6>, <biomesoplenty:gem_block:6>, <biomesoplenty:gem_block:6>, <biomesoplenty:gem_block:6>]);
-
+*/
 # Lapis Seeds
 	recipes.remove(<mysticalagriculture:lapis_lazuli_seeds>);
 	mods.astralsorcery.Altar.addAttunementAltarRecipe("enigmatica2expert:shaped/internal/altar/lapis_lazuli_seeds",
@@ -455,7 +455,7 @@ recipes.addShapedMirrored("Wither Proof Glass",
 	<ore:blockAmber>, <ore:blockAmber>, <ore:blockAmber>, <ore:blockAmber>]);
 
 # Topaz Seeds
-	recipes.remove(<mysticalagriculture:topaz_seeds>);
+/*	recipes.remove(<mysticalagriculture:topaz_seeds>);
 	mods.astralsorcery.Altar.addAttunementAltarRecipe("enigmatica2expert:shaped/internal/altar/topaz_seeds",
 	<mysticalagriculture:topaz_seeds>, 600, 200, 
 	[<ore:essenceTier3>, <ore:blockSuperiumEssence>, <ore:essenceTier3>,
@@ -463,7 +463,7 @@ recipes.addShapedMirrored("Wither Proof Glass",
 	<ore:essenceTier3>, <ore:blockSuperiumEssence>, <ore:essenceTier3>,
 	
 	<biomesoplenty:gem_block:3>, <biomesoplenty:gem_block:3>, <biomesoplenty:gem_block:3>, <biomesoplenty:gem_block:3>]);
-
+*/
 # Osmium Seeds
 	recipes.remove(<mysticalagriculture:osmium_seeds>);
 	mods.astralsorcery.Altar.addAttunementAltarRecipe("enigmatica2expert:shaped/internal/altar/osmium_seeds",
@@ -475,7 +475,7 @@ recipes.addShapedMirrored("Wither Proof Glass",
 	<ore:blockOsmium>, <ore:blockOsmium>, <ore:blockOsmium>, <ore:blockOsmium>]);
 
 # Malachite Seeds
-	recipes.remove(<mysticalagriculture:malachite_seeds>);
+/*	recipes.remove(<mysticalagriculture:malachite_seeds>);
 	mods.astralsorcery.Altar.addAttunementAltarRecipe("enigmatica2expert:shaped/internal/altar/malachite_seeds",
 	<mysticalagriculture:malachite_seeds>, 600, 200, 
 	[<ore:essenceTier3>, <ore:blockSuperiumEssence>, <ore:essenceTier3>,
@@ -483,9 +483,9 @@ recipes.addShapedMirrored("Wither Proof Glass",
 	<ore:essenceTier3>, <ore:blockSuperiumEssence>, <ore:essenceTier3>,
 	
 	<biomesoplenty:gem_block:5>, <biomesoplenty:gem_block:5>, <biomesoplenty:gem_block:5>, <biomesoplenty:gem_block:5>]);
-
+*/
 # Tanzanite Seeds
-	recipes.remove(<mysticalagriculture:tanzanite_seeds>);
+/*	recipes.remove(<mysticalagriculture:tanzanite_seeds>);
 	mods.astralsorcery.Altar.addAttunementAltarRecipe("enigmatica2expert:shaped/internal/altar/tanzanite_seeds",
 	<mysticalagriculture:tanzanite_seeds>, 600, 200, 
 	[<ore:essenceTier3>, <ore:blockSuperiumEssence>, <ore:essenceTier3>,
@@ -493,7 +493,7 @@ recipes.addShapedMirrored("Wither Proof Glass",
 	<ore:essenceTier3>, <ore:blockSuperiumEssence>, <ore:essenceTier3>,
 	
 	<biomesoplenty:gem_block:4>, <biomesoplenty:gem_block:4>, <biomesoplenty:gem_block:4>, <biomesoplenty:gem_block:4>]);
-
+*/
 # Nickel Seeds
 	recipes.remove(<mysticalagriculture:nickel_seeds>);
 	mods.astralsorcery.Altar.addAttunementAltarRecipe("enigmatica2expert:shaped/internal/altar/nickel_seeds",

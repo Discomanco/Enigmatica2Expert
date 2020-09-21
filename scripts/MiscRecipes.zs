@@ -45,10 +45,10 @@ print("--- loading MiscRecipes.zs ---");
 	[<ore:blockUranium>]);
 	
 # Amber Conversion
-	recipes.addShapeless("BoP Amber", 
-	<biomesoplenty:gem:7>, [<thaumcraft:amber>]);
-	recipes.addShapeless("Thaumcraft Amber", 
-	<thaumcraft:amber>, [<biomesoplenty:gem:7>]);
+//	recipes.addShapeless("BoP Amber", 
+//	<biomesoplenty:gem:7>, [<thaumcraft:amber>]);
+//	recipes.addShapeless("Thaumcraft Amber", 
+//	<thaumcraft:amber>, [<biomesoplenty:gem:7>]);
 
 # End Crystal
 	recipes.remove(<minecraft:end_crystal>);
@@ -101,9 +101,9 @@ print("--- loading MiscRecipes.zs ---");
 	[<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>]]);
 	
 # Mud conversion
-	recipes.remove(<animania:block_mud>);
-	recipes.addShapeless("BoP Mud", <biomesoplenty:mud>, [<animania:block_mud>]);
-	recipes.addShapeless("Animania Mud", <animania:block_mud>, [<biomesoplenty:mud>]);
+//	recipes.remove(<animania:block_mud>);
+//	recipes.addShapeless("BoP Mud", <biomesoplenty:mud>, [<animania:block_mud>]);
+//	recipes.addShapeless("Animania Mud", <animania:block_mud>, [<biomesoplenty:mud>]);
 	
 # Silicon conversion
 	recipes.addShapeless(<enderio:item_material:5> * 2, [<libvulpes:productingot:3>, <libvulpes:productingot:3>]);
