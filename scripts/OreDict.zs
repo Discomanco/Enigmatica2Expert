@@ -255,7 +255,7 @@ for item in pressurePlates {
 	<ore:listAllfishraw>.add(<pvj:raw_squid>);
 	<ore:listAllmeatraw>.add(<pvj:raw_duck>);
 	<ore:foodMeat>.add(<pvj:raw_duck>);
-	<ore:listAllchickenraw>.add(<pvj:raw_duck>)>;
+	<ore:listAllchickenraw>.add(<pvj:raw_duck>);
 
 # *======= Variables =======*
 	

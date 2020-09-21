@@ -577,3 +577,6 @@ for item in thaumcraftHintItems {
 	<thermalfoundation:upgrade:2>.addTooltip(format.yellow("Increases Augment Slots to 5"));
 	<thermalfoundation:upgrade:1>.addTooltip(format.yellow("Increases Augment Slots to 3"));
 	
+# Disabled Automation Interface
+	<extendedcrafting:interface>.addTooltip(format.red("Disabled. Use @PackagedExCrafting instead"));
+	

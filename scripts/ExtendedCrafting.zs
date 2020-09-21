@@ -99,6 +99,9 @@ print("--- loading ExtendedCrafting.zs ---");
 	[null, blackIron, null],
 	[blackIron, <extendedcrafting:storage>, blackIron]], 
 	40, <liquid:coal> * 1000);
+	
+# Automation Interface
+	recipes.remove(<extendedcrafting:interface>);
 
 # Increasing the price of Lapis, Redstone, Coal & Glowstone Singularities
 	mods.extendedcrafting.CompressionCrafting.remove(<extendedcrafting:singularity>);
