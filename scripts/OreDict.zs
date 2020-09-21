@@ -250,6 +250,12 @@ for item in pressurePlates {
 # Iridium
 	<ore:ingotIridium>.add(<ic2:misc_resource:1>);
 	<ore:nuggetIridium>.add(<ic2:misc_resource:2>);
+	
+# PVJ raw food
+	<ore:listAllfishraw>.add(<pvj:raw_squid>);
+	<ore:listAllmeatraw>.add(<pvj:raw_duck>);
+	<ore:foodMeat>.add(<pvj:raw_duck>);
+	<ore:listAllchickenraw>.add(<pvj:raw_duck>)>;
 
 # *======= Variables =======*
 	
