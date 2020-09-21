@@ -527,7 +527,20 @@ for item in pressurePlates {
 		<minecraft:planks:2>, 
 		<minecraft:planks:3>, 
 		<minecraft:planks:4>, 
-		<minecraft:planks:5>
+		<minecraft:planks:5>,
+		<pvj:planks_aspen>,
+		<pvj:planks_baobab>,
+		<pvj:planks_cherry_blossom>,
+		<pvj:planks_cottonwood>,
+		<pvj:planks_fir>,
+		<pvj:planks_jacaranda>,
+		<pvj:planks_juniper>,
+		<pvj:planks_mangrove>,
+		<pvj:planks_maple>,
+		<pvj:planks_palm>,
+		<pvj:planks_pine>,
+		<pvj:planks_redwood>,
+		<pvj:planks_willow>
 	] as IItemStack[];
 	
 	Plank.addItems(PlanksToAdd);
@@ -567,7 +580,20 @@ for item in pressurePlates {
 		<quark:spruce_trapdoor>,
 		<quark:birch_trapdoor>,
 		<quark:jungle_trapdoor>,
-		<quark:acacia_trapdoor>
+		<quark:acacia_trapdoor>,
+		<pvj:willow_trapdoor>,
+		<pvj:mangrove_trapdoor>,
+		<pvj:palm_trapdoor>,
+		<pvj:redwood_trapdoor>,
+		<pvj:fir_trapdoor>,
+		<pvj:pine_trapdoor>,
+		<pvj:aspen_trapdoor>,
+		<pvj:maple_trapdoor>,
+		<pvj:baobab_trapdoor>,
+		<pvj:cottonwood_trapdoor>,
+		<pvj:juniper_trapdoor>,
+		<pvj:cherry_blossom_trapdoor>,
+		<pvj:jacaranda_trapdoor>
 	] as IItemStack[];
 	
 	Trapdoor.addItems(TrapdoorToAdd);
@@ -609,7 +635,20 @@ for item in pressurePlates {
 		<minecraft:jungle_door>,
 		<minecraft:birch_door>,
 		<minecraft:spruce_door>,
-		<minecraft:dark_oak_door>
+		<minecraft:dark_oak_door>,
+		<pvj:willow_door_item>,
+		<pvj:mangrove_door_item>,
+		<pvj:palm_door_item>,
+		<pvj:redwood_door_item>,
+		<pvj:fir_door_item>,
+		<pvj:pine_door_item>,
+		<pvj:aspen_door_item>,
+		<pvj:maple_door_item>,
+		<pvj:baobab_door_item>,
+		<pvj:cottonwood_door_item>,
+		<pvj:juniper_door_item>,
+		<pvj:cherry_blossom_door_item>,
+		<pvj:jacaranda_door_item>
 	] as IItemStack[];
 	
 	Door.addItems(DoorToAdd);
