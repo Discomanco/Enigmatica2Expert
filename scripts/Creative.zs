@@ -15,8 +15,8 @@ print("--- loading Creative.zs ---");
 	var draconicEnergyCore = <draconicevolution:draconic_energy_core>;
 	var rtgFuel = <ic2:nuclear:10>;
 	var dilithium = <ore:gemDilithium>;
-	var anglesite = <nuclearcraft:gem:4>; /* Carobbiite */ 
-	var benitoite = <biomesoplenty:crystal_shard>; /* Celestial Crystal Shard */
+	var anglesite = <contenttweaker:anglesite>; 
+	var benitoite = <contenttweaker:benitoite>; 
 	var ingotMirion = <ore:ingotMirion>;
 	var manaTablet = <botania:manatablet>.withTag({mana: 500000});
 	var megaDrum = <extrautils2:drum:3>;

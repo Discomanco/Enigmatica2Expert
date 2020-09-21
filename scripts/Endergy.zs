@@ -21,7 +21,6 @@ print("--- loading Endergy.zs ---");
 	rh(<enderio:item_capacitor_vivid>);
 	rh(<enderio:item_capacitor_stellar>);
 	rh(<enderio:item_capacitor_grainy>);
-	rh(<biomesoplenty:crystal>);
 	rh(<enderio:item_alloy_endergy_ingot:0>);
 	rh(<enderio:item_alloy_endergy_ingot:1>);
 	rh(<enderio:item_alloy_endergy_ingot:4>);
@@ -76,8 +75,8 @@ print("--- loading Endergy.zs ---");
 	<enderio:item_material:17>,  <enderio:item_material:18>, <enderio:item_material:19>]);	
 
 # Benitoite - Crystal made of Botania/AstralSorcery/BloodMagic/Thaumcraft materials
-	recipes.remove(<biomesoplenty:crystal>);
-	mods.extendedcrafting.CombinationCrafting.addRecipe(<biomesoplenty:crystal_shard>, 100000000, 1000000, <botania:manaresource:5>, 
+#	recipes.remove(<biomesoplenty:crystal>);
+	mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:benitoite>, 100000000, 1000000, <botania:manaresource:5>, 
 	[<botania:manaresource:9>, <botania:manaresource:1>, <botania:manaresource:7>, 
 	<botania:pylon:1>, <botania:manaresource:2>, <botania:manaresource:8>, 
 	<astralsorcery:itemcraftingcomponent:2>, #<astralsorcery:itemshiftingstar>.withTag({}), 
