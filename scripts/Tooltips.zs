@@ -580,3 +580,13 @@ for item in thaumcraftHintItems {
 # Disabled Automation Interface
 	<extendedcrafting:interface>.addTooltip(format.red("Disabled. Use @PackagedExCrafting instead"));
 	
+# Obtaining CoT Gems
+ var CoTGems as IItemStack[] = [
+	<contenttweaker:ruby>,
+	<contenttweaker:sapphire>,
+	<contenttweaker:peridot>
+];
+
+for item in CoTGems {
+	addDescription(item, "Can be found deep in the Nether");
+}

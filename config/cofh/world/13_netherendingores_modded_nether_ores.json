@@ -239,6 +239,72 @@
 					-1
 				]
 			}
+		},
+		"nether-ruby": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_2",
+					"metadata": 1
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 7
+			},
+			"cluster-count": 12,
+			"min-height": 5,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-sapphire": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_2",
+					"metadata": 2
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 7
+			},
+			"cluster-count": 12,
+			"min-height": 5,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-peridot": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "netherendingores:ore_nether_modded_2",
+					"metadata": 3
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 7
+			},
+			"cluster-count": 12,
+			"min-height": 5,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
 		}
 	}
 }
