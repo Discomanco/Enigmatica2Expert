@@ -52,5 +52,12 @@ print("--- loading StorageDrawers.zs ---");
 	[[<ore:stickWood>, <ore:plankWood>, <ore:stickWood>],
 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 
 	[<ore:stickWood>, <ore:plankWood>, <ore:stickWood>]]);
+	
+# Creative Storage Upgrade
+	recipes.addShaped("Creative Storage Upgrade",
+	<storagedrawers:upgrade_creative>, 
+	[[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
+	[<storagedrawers:upgrade_template>, <industrialforegoing:black_hole_unit>, <storagedrawers:upgrade_template>], 
+	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
 		print("--- StorageDrawers.zs initialized ---");
