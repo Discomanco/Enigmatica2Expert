@@ -95,8 +95,8 @@ print("--- loading BloodMagic.zs ---");
 	[<thaumcraft:fabric>, <ore:ingotManasteel>, <thaumcraft:fabric>]]);
 
 # Awakended Activation Crystal
-	recipes.remove(<bloodmagic:activation_crystal:1>);
-	mods.bloodmagic.TartaricForge.addRecipe(<bloodmagic:activation_crystal:1>, [<ore:gaiaIngot>, <astralsorcery:iteminfusedglass>.anyDamage(), <actuallyadditions:item_misc:19>, <thaumcraft:metal_void>], 2000, 500);
+#	recipes.remove(<bloodmagic:activation_crystal:1>);
+#	mods.bloodmagic.TartaricForge.addRecipe(<bloodmagic:activation_crystal:1>, [<ore:gaiaIngot>, <astralsorcery:iteminfusedglass>.anyDamage(), <actuallyadditions:item_misc:19>, <thaumcraft:metal_void>], 2000, 500);
 	
 // output, input, altar tier, mb life essence, blood consumed per tick, blood drained per tick
 # Blank Slate
