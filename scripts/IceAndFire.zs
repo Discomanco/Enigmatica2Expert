@@ -133,7 +133,7 @@ print("--- loading IceAndFire.zs ---");
 	}
 	
 # Dragons Breath from Dragon Forges
-	mods.iceandfire.recipes.addFireDragonForgeRecipe(<botania:manaresource:15>, <integrateddynamics:crystalized_chorus_chunk>, <minecraft:dragon_breath>); 
-	mods.iceandfire.recipes.addIceDragonForgeRecipe(<botania:manaresource:15>, <integrateddynamics:crystalized_chorus_chunk>, <minecraft:dragon_breath>);
+	mods.iceandfire.recipes.addFireDragonForgeRecipe(<integrateddynamics:crystalized_chorus_chunk>, <botania:manaresource:15>, <minecraft:dragon_breath>); 
+	mods.iceandfire.recipes.addIceDragonForgeRecipe(<integrateddynamics:crystalized_chorus_chunk>, <botania:manaresource:15>, <minecraft:dragon_breath>);
 	
 		print("--- IceAndFire.zs initialized ---");
