@@ -590,3 +590,6 @@ for item in thaumcraftHintItems {
 for item in CoTGems {
 	addDescription(item, "Can be found deep in the Nether");
 }
+
+# Recycler disabled
+	<ic2:te:48>.addTooltip(format.red("Disabled. Use the Advanced Scrap Factory"));
