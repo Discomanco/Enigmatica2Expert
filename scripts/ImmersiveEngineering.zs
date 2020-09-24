@@ -160,4 +160,11 @@ print("--- loading ImmersiveEngineering.zs ---");
 	
 # Unbreakable Graphite Electrodes
 	mods.thermalexpansion.InductionSmelter.addRecipe(<immersiveengineering:graphite_electrode>.withTag({Unbreakable: 1, display: {Lore: ["Reinforced with Titanium Iridium Alloy"], Name: "Unbreakable Graphite Electrode"}}), <immersiveengineering:graphite_electrode>, <advancedrocketry:productingot:1> * 4, 25000);
+	mods.jei.JEI.addItem(<immersiveengineering:graphite_electrode>.withTag({Unbreakable: 1, display: {Lore: ["Reinforced with Titanium Iridium Alloy"], Name: "Unbreakable Graphite Electrode"}}));
+
+
+# Malachite from Crushers
+  mods.immersiveengineering.Crusher.removeRecipesForInput(<netherendingores:ore_nether_modded_2:3>);
+  mods.immersiveengineering.Crusher.removeRecipesForInput(<netherendingores:ore_end_modded_2:3>);
+  mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:peridot> * 4, <netherendingores:ore_nether_modded_2:3>, 2048, <contenttweaker:malachite> * 2, 0.75);
 	

@@ -1,5 +1,6 @@
 import crafttweaker.item.IItemStack;
 #modloaded thermalexpansion
+#modloaded contenttweaker
 print("--- loading ThermalExpansion.zs ---");
 
 # Canola Oil Changes	
@@ -185,6 +186,13 @@ print("--- loading ThermalExpansion.zs ---");
 
 # Hardened Cell Frame
 	mods.actuallyadditions.Empowerer.addRecipe(<thermalexpansion:frame:129>, <thermalexpansion:frame:128>, <immersiveengineering:material:2>, <thermalfoundation:material:354>, <thermalfoundation:material:290>, <mekanism:basicblock:8>, 2500000, 200, [0.25, 0.25, 0.29]);
+
+# Peridot dropping Malachite
+	mods.thermalexpansion.Pulverizer.removeRecipe(<netherendingores:ore_nether_modded_2:3>);
+	mods.thermalexpansion.Pulverizer.removeRecipe(<netherendingores:ore_end_modded_2:3>);
+	mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:peridot> * 3, <netherendingores:ore_nether_modded_2:3>, 1920, <contenttweaker:malachite>, 150);
+  
+  
 	
 # Resonant Upgrade Kit
 	recipes.remove(<thermalfoundation:upgrade:3>);

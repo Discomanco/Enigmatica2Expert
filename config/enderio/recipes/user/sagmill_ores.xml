@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+	<recipe name="Sagmill: Nether Peridot Ore" required="false">
+		<sagmilling energy="3200">
+			<input name="oreNetherPeridot" />
+			<output name="gemPeridot" amount="5" />
+			<output name="gemPeridot" amount="2" chance="0.5" />
+			<output name="gemMalachite" amount="3" chance="1.0" />
+			<output name="minecraft:netherrack" chance="0.15" />
+		</sagmilling>
+	</recipe>
+</enderio:recipes>
