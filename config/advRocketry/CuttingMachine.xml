@@ -69,6 +69,14 @@
 			<itemStack>minecraft:planks 10 5</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="80" power ="1000">
+		<input>
+			<itemStack>advancedrocketry:alienwood</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:planks 10</itemStack>
+		</output>
+	</Recipe>
 	<Recipe timeRequired="80" power ="2500">
 		<input>
 			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
@@ -93,12 +101,28 @@
 			<itemStack>advancedrocketry:wafer 4</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="80" power ="1000">
+	<Recipe timeRequired="100" power ="4000">
 		<input>
-			<itemStack>advancedrocketry:alienwood</itemStack>
+			<oreDict>blockGold</oreDict>
 		</input>
 		<output>
-			<itemStack>advancedrocketry:planks 10</itemStack>
+			<itemStack>appliedenergistics2:material 9 18</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="4000">
+		<input>
+			<oreDict>blockDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>appliedenergistics2:material 9 17</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="4000">
+		<input>
+			<oreDict>crystalPureCertusQuartz 9</oreDict>
+		</input>
+		<output>
+			<itemStack>appliedenergistics2:material 9 16</itemStack>
 		</output>
 	</Recipe>
 </Recipes>
