@@ -184,15 +184,15 @@ print("--- loading IndustrialCraft2.zs ---");
 	recipes.remove(<ic2:te:48>);
 	
 # Dense Plates
-	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:9>, <thermalfoundation:storage_alloy:3>, 75000);
-	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:10>, <thermalfoundation:storage>, 75000);
-	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:11>, <minecraft:gold_block>, 75000);
-	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:12>, <minecraft:iron_block>, 75000);
-	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:13>, <minecraft:lapis_block>, 75000);
-	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:14>, <thermalfoundation:storage:3>, 75000);
-	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:15>, <minecraft:obsidian>*3, 75000);
-	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:16>, <thermalfoundation:storage_alloy>, 75000);
-	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:17>, <thermalfoundation:storage:1>, 75000);
+	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:9>, <thermalfoundation:storage_alloy:3>, 30000);
+	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:10>, <thermalfoundation:storage>, 30000);
+	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:11>, <minecraft:gold_block>, 30000);
+	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:12>, <minecraft:iron_block>, 30000);
+	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:13>, <minecraft:lapis_block>, 30000);
+	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:14>, <thermalfoundation:storage:3>, 30000);
+	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:15>, <minecraft:obsidian>*3, 30000);
+	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:16>, <thermalfoundation:storage_alloy>, 30000);
+	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:17>, <thermalfoundation:storage:1>, 30000);
 	
 	
 
