@@ -1,0 +1,729 @@
+{
+	"registryname": "singularity_forge", 
+    "localizedname": "Singularity Forge",
+	"color": "3b3b3b",
+    "parts": [
+        {
+            "x": -3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "mekanism:machineblock2@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "mekanismgenerators:reactorglass@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "casings_fluid_in"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "mekanism:machineblock2@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "casings_fluid_in"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 4,
+            
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:lithium_ion_battery_elite@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -1,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -3,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:pedestal_arcane@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -1,
+            
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "mekanism:machineblock2@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -1,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -3,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "modularmachinery:blockcasing@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 1,
+            
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 1,
+            
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 1,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "casings_item_in"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 1,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "mekanism:machineblock2@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 3,
+            
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 1,
+            
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 1,
+            
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -3,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:lithium_ion_battery_elite@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -2,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 1,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"Items":[{"Slot":"0b","id":"extendedcrafting:singularity_custom","Count":"1b","Damage":"110s"}],"id":"thaumcraft:tilepedestal"},
+            "elements": [
+                "thaumcraft:pedestal_arcane@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:lithium_ion_battery_elite@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:lithium_ion_battery_elite@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "casings_fluid_in"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 0,
+            
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "casings_fluid_in"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -2,
+            
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "thermaldynamics:duct_0@5"
+            ]
+        },{
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "environmentalmaterials:alabaster_stairs_gray@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "environmentalmaterials:alabaster_stairs_gray@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "environmentalmaterials:alabaster_stairs_gray@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "environmentalmaterials:alabaster_stairs_gray@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "environmentalmaterials:alabaster_stairs_gray@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "environmentalmaterials:alabaster_stairs_gray@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "environmentalmaterials:alabaster_stairs_gray@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_stairs_gray@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "environmentalmaterials:alabaster_stairs_gray@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "environmentalmaterials:alabaster_stairs_gray@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "environmentalmaterials:alabaster_stairs_gray@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "environmentalmaterials:alabaster_stairs_gray@7"
+            ]
+        }
+    ]}
