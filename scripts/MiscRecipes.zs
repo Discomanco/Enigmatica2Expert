@@ -70,19 +70,6 @@ print("--- loading MiscRecipes.zs ---");
 	recipes.addShapeless("Blood Magic Guide", 
 	<guideapi:bloodmagic-guide>, 
 	[<minecraft:book>,<bloodmagic:soul_snare>]);
-	
-# Animania Random Animal Spawn Egg
-	mods.forestry.Carpenter.addRecipe(<animania:entity_egg_random>, 
-	[[null , <cyclicmagic:sprout_seed>, null],
-	[<ore:egg>,<ore:egg>,<ore:egg>],
-	[null, <cyclicmagic:sprout_seed>, null]], 
-	40, <liquid:meat> * 500);
-	
-	mods.forestry.Carpenter.addRecipe(<animania:entity_egg_random>, 
-	[[null , <cyclicmagic:sprout_seed>, null],
-	[<ore:egg>,<ore:egg>,<ore:egg>],
-	[null, <cyclicmagic:sprout_seed>, null]], 
-	40, <liquid:liquiddna> * 250);
 
 # OpenBlocks Glider
 	recipes.remove(<openglider:hang_glider_part:0>);	
