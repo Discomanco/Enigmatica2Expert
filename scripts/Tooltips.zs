@@ -577,3 +577,6 @@ for item in CoTGems {
 
 # Recycler disabled
 	<ic2:te:48>.addTooltip(format.red("Disabled. Use the Advanced Scrap Factory"));
+
+# Gas Intake disabled
+	<advgenerators:gas_input>.addTooltip(format.red("Disabled due to not consuming fuel"));

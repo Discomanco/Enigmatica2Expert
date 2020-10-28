@@ -43,4 +43,7 @@ print("--- loading AdvancedGenerators.zs ---");
 	[<ore:ingotTin>, <gendustry:power_module>, <ore:ingotTin>], 
 	[<ore:ingotSilver>, <ore:ingotTin>, <ore:ingotSilver>]]);
 
+# Gas Intake disabled
+	recipes.remove(<advgenerators:gas_input>);
+
 		print("--- AdvancedGenerators.zs initialized ---");
