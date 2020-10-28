@@ -136,17 +136,17 @@ print("--- loading Avaritia.zs ---");
 ]);
 
 # Cosmic Meatballs
-	mods.extendedcrafting.TableCrafting.addShapeless(4, 
-	<avaritia:cosmic_meatballs> * 9, 
-	[<ore:ingotCosmicNeutronium>, 
-	<minecraft:porkchop>, 
-	<minecraft:beef>, 
-	<minecraft:chicken>, 
-	<minecraft:rabbit>, 
-	<minecraft:mutton>,
-	<harvestcraft:turkeyrawitem>, 
-	<harvestcraft:venisonrawitem>, 
-	<harvestcraft:duckrawitem>]);
+	mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:cosmic_meatballs> * 9, [
+	[null, null, null, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, null, null, null], 
+	[null, null, <ore:dustAstralStarmetal>, <ore:foodPorkrinds>, <thaumcraft:triple_meat_treat>, <ore:foodPorkrinds>, <ore:dustAstralStarmetal>, null, null], 
+	[null, null, <ore:dustAstralStarmetal>, <thaumcraft:triple_meat_treat>, <ore:ingotCosmicNeutronium>, <thaumcraft:triple_meat_treat>, <ore:dustAstralStarmetal>, null, null], 
+	[null, null, <ore:dustAstralStarmetal>, <ore:foodPorkrinds>, <thaumcraft:triple_meat_treat>, <ore:foodPorkrinds>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, null], 
+	[null, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:ingotCrystalMatrix>, <astralsorcery:itemshiftingstar>, <ore:ingotCrystalMatrix>, <thaumcraft:triple_meat_treat>, <ore:foodPorkrinds>, <ore:dustAstralStarmetal>], 
+	[<ore:dustAstralStarmetal>, <ore:foodPorkrinds>, <thaumcraft:triple_meat_treat>, <ore:foodPorkrinds>, <ore:ingotCrystalMatrix>, <thaumcraft:triple_meat_treat>, <ore:ingotCosmicNeutronium>, <thaumcraft:triple_meat_treat>, <ore:dustAstralStarmetal>], 
+	[<ore:dustAstralStarmetal>, <thaumcraft:triple_meat_treat>, <ore:ingotCosmicNeutronium>, <thaumcraft:triple_meat_treat>, <ore:dustAstralStarmetal>, <ore:foodPorkrinds>, <thaumcraft:triple_meat_treat>, <ore:foodPorkrinds>, <ore:dustAstralStarmetal>], 
+	[<ore:dustAstralStarmetal>, <ore:foodPorkrinds>, <thaumcraft:triple_meat_treat>, <ore:foodPorkrinds>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, null], 
+	[null, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, null, null, null, null, null]
+]);
 		
 # Neutronium Ingot
 	var ni = <ore:ingotCosmicNeutronium>;
