@@ -242,7 +242,12 @@ for silicon in <ore:itemSilicon>.items {
 	rh(<enderio:block_enhanced_wired_charger>);
 	rh(<enderio:item_material:30>);
 	rh(<enderio:item_material:31>);
-	
+
+# Dark Steel Upgrade Recycling
+	mods.nuclearcraft.decay_hastener.addRecipe([<enderio:item_dark_steel_upgrade:1>.anyDamage(), <enderio:item_dark_steel_upgrade>, 2.0, 2.0]);
+
+# Dark Steel Upgrade Expensive, Thermal
+	mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_dark_steel_upgrade>, <enderio:block_alloy:6>, <minecraft:clay>, 25000);
 	
 	
 	print("--- EnderIO.zs initialized ---");
