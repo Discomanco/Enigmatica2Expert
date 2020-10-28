@@ -341,4 +341,7 @@ print("--- loading MiscRecipes.zs ---");
 	rh(<extendedcrafting:material:128>);
 	rh(<extendedcrafting:material:129>);
 	
+# Pork Rinds
+	mods.nuclearcraft.infuser.addRecipe([<harvestcraft:epicbaconitem>, <fluid:empoweredoil>, <harvestcraft:porkrindsitem>]);
+	
 print("--- MiscRecipes.zs initialized ---");
