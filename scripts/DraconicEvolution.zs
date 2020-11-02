@@ -101,7 +101,7 @@ print("--- loading DraconicEvolution.zs ---");
 	recipes.remove(<draconicevolution:energy_crystal:6>);
 	recipes.addShapedMirrored("Basic Wireless Enegy Crystal", <draconicevolution:energy_crystal:6>,
 	[[<ore:dustAstralStarmetal>,<extrautils2:powertransmitter>,<ore:dustAstralStarmetal>],
-	[<appliedenergistics2:material:41>,<draconicevolution:energy_crystal>.anyDamage(),<appliedenergistics2:material:41>],
+	[<appliedenergistics2:material:41>,<draconicevolution:energy_crystal:0>,<appliedenergistics2:material:41>],
 	[<ore:dustAstralStarmetal>,<extrautils2:powertransmitter>,<ore:dustAstralStarmetal>]]);
 	
 		print("--- DraconicEvolution.zs initialized ---");
