@@ -217,6 +217,41 @@ print("--- loading ThermalExpansion.zs ---");
 	[[null,<ore:ingotElectrum>,null],
 	[<ore:ingotElectrum>,<thermalfoundation:upgrade>,<ore:ingotElectrum>],
 	[<ore:blockGlassHardened>,<ore:ingotElectrum>,<ore:blockGlassHardened>]]);
+
+# Tank upgrade recipes, with keeping NBT. Upgrade kits can still be used
+	recipes.addShaped("tankup1", <thermalexpansion:tank>.withTag({Level: 1}),
+	[[null,<ore:nuggetTin>,null],
+	[<ore:ingotInvar>,<thermalexpansion:tank>.onlyWithTag({Level: 0}).marked("tank1"), <ore:ingotInvar>],
+	[<ore:nuggetTin>,null,<ore:nuggetTin>]],
+		function(out, ins, cInfo){
+			return ins.tank1.updateTag({Level: 1});
+		},null);
+	recipes.addShaped("tankup2", <thermalexpansion:tank>.withTag({Level: 2}),
+	[[null,<ore:nuggetInvar>,null],
+	[<ore:ingotElectrum>,<thermalexpansion:tank>.withTag({Level: 1}, true).marked("tank2"), <ore:ingotElectrum>],
+	[<ore:nuggetInvar>,null,<ore:nuggetInvar>]],
+		function(out, ins, cInfo){
+			return ins.tank2.updateTag({Level: 2});
+		},null);
+	recipes.addShaped("tankup3", <thermalexpansion:tank>.withTag({Level: 3}),
+	[[null,<ore:nuggetElectrum>,null],
+	[<ore:ingotSignalum>,<thermalexpansion:tank>.withTag({Level: 2}, true).marked("tank3"), <ore:ingotSignalum>],
+	[<ore:nuggetElectrum>,null,<ore:nuggetElectrum>]],
+		function(out, ins, cInfo){
+			return ins.tank3.updateTag({Level: 3});
+		},null);
+	recipes.addShaped("tankup4", <thermalexpansion:tank>.withTag({Level: 4}),
+	[[null,<ore:nuggetSignalum>,null],
+	[<ore:ingotEnderium>,<thermalexpansion:tank>.withTag({Level: 3}, true).marked("tank4"), <ore:ingotEnderium>],
+	[<ore:nuggetSignalum>,null,<ore:nuggetSignalum>]],
+		function(out, ins, cInfo){
+			return ins.tank4.updateTag({Level: 4});
+		},null);
+
+	mods.jei.JEI.addItem(<thermalexpansion:tank>.withTag({Level: 1}));
+	mods.jei.JEI.addItem(<thermalexpansion:tank>.withTag({Level: 2}));
+	mods.jei.JEI.addItem(<thermalexpansion:tank>.withTag({Level: 3}));
+	mods.jei.JEI.addItem(<thermalexpansion:tank>.withTag({Level: 4}));
 	
 
 
