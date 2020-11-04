@@ -13,14 +13,14 @@
       },
       {
         "weight": 50,
-        "oreName": "oreDimensionalShard"
+        "oreName": "rftools:dimensional_shard_ore"
       },
       {
         "weight": 25,
         "oreName": "oreClathrateRedstone"
       },
       {
-        "weight": 250,
+        "weight": 100,
         "oreName": "oreDraconium"
       },
       {
@@ -28,7 +28,7 @@
         "oreName": "oreIridium"
       },
       {
-        "weight": 100,
+        "weight": 250,
         "oreName": "oreAstralStarmetal"
       },
       {
@@ -40,5 +40,5 @@
     "radius": 9,
     "maxWeight": 1040,
     "version": 4,
-    "cost": 7500000
+    "cost": 11000000
   }
