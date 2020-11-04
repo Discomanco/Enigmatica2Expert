@@ -581,3 +581,6 @@ for item in CoTGems {
 # Gas Intake disabled
 	<advgenerators:gas_input>.addTooltip(format.red("Disabled due to not consuming fuel"));
 	addDescription(<advgenerators:gas_input>, "How can I use Ethylene with Advanced Generators? Use the Rotary Condensentrator to convert the Ethylene to a liquid.");
+
+# Corium Bucket
+	<forge:bucketfilled>.withTag({FluidName: "corium", Amount: 1000}).addTooltip(format.green("Obtainable by melting down a Fission Reactor"));
