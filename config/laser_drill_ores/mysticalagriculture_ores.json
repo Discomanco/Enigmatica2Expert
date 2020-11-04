@@ -30,7 +30,7 @@
     "color" : 4,
     "rarity" : [
       {
-        "whitelist": "",
+        "whitelist": "minecraft:hell",
         "blacklist": "",
         "depth_min": 0,
         "depth_max": 255,
@@ -43,7 +43,7 @@
     "color" : 3,
     "rarity" : [
       {
-        "whitelist": "",
+        "whitelist": "minecraft:hell",
         "blacklist": "",
         "depth_min": 0,
         "depth_max": 255,
@@ -56,7 +56,7 @@
     "color" : 4,
     "rarity" : [
       {
-        "whitelist": "",
+        "whitelist": "minecraft:sky",
         "blacklist": "",
         "depth_min": 0,
         "depth_max": 255,
@@ -69,7 +69,7 @@
     "color" : 3,
     "rarity" : [
       {
-        "whitelist": "",
+        "whitelist": "minecraft:sky",
         "blacklist": "",
         "depth_min": 0,
         "depth_max": 255,

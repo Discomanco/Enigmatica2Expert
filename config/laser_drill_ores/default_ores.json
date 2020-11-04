@@ -152,16 +152,9 @@
 			{
 				"whitelist" : "minecraft:hell",
 				"blacklist" : "",
-				"depth_min" : 7,
-				"depth_max" : 117,
+				"depth_min" : 0,
+				"depth_max" : 255,
 				"weight" : 12
-			},
-			{
-				"whitelist": "",
-				"blacklist": "minecraft:hell, minecraft:sky",
-				"depth_min": 0,
-				"depth_max": 255,
-				"weight": 1
 			}
 		]
 	},
