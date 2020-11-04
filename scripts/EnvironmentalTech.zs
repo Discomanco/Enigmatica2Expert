@@ -99,22 +99,22 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:solar_cont_5
 [[<advancedrocketry:satellitepowersource:1>, cell5, cell5, cell5, cell5, cell5, <advancedrocketry:satellitepowersource:1>], 
 [cell5, blockIonite, blockIonite, <thermalexpansion:frame:129>, blockIonite, blockIonite, cell5], 
 [cell5, blockIonite, <nuclearcraft:part:3>, <thermalexpansion:frame:147>, <nuclearcraft:part:3>, blockIonite, cell5], 
-[cell5, <thermalexpansion:frame:129>, <compactsolars:compact_solar_block:2>, <environmentaltech:solar_cont_4>, <compactsolars:compact_solar_block:2>, <thermalexpansion:frame:129>, cell5], 
+[cell5, <thermalexpansion:frame:129>, <nuclearcraft:solar_panel_elite>, <environmentaltech:solar_cont_4>, <nuclearcraft:solar_panel_elite>, <thermalexpansion:frame:129>, cell5], 
 [cell5, blockIonite, <nuclearcraft:part:3>, <thermalexpansion:frame:147>, <nuclearcraft:part:3>, blockIonite, cell5], 
 [cell5, blockIonite, blockIonite, <thermalexpansion:frame:129>, blockIonite, blockIonite, cell5], 
 [<advancedrocketry:satellitepowersource:1>, cell5, cell5, cell5, cell5, cell5, <advancedrocketry:satellitepowersource:1>]]);  
 
 recipes.remove(<environmentaltech:solar_cont_6>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:solar_cont_6>, 
-[[<compactsolars:compact_solar_block:2>, cell6, cell6, cell6, <thermalexpansion:frame:148>, cell6, cell6, cell6, <compactsolars:compact_solar_block:2>], 
+[[<nuclearcraft:solar_panel_elite>, cell6, cell6, cell6, <thermalexpansion:frame:148>, cell6, cell6, cell6, <nuclearcraft:solar_panel_elite>], 
 [cell6, <extendedcrafting:material:32>, blockAethium, blockAethium, <ic2:nuclear:10>, blockAethium, blockAethium, <extendedcrafting:material:32>, cell6], 
 [cell6, blockAethium, <extendedcrafting:material:32>, <draconicevolution:draconic_block>, <extendedcrafting:singularity:66>, <draconicevolution:draconic_block>, <extendedcrafting:material:32>, blockAethium, cell6], 
-[cell6, blockAethium, <draconicevolution:draconic_block>, <extendedcrafting:storage:3>, <draconicevolution:reactor_core>, <extendedcrafting:storage:3>, <draconicevolution:draconic_block>, blockAethium, cell6], 
+[cell6, blockAethium, <draconicevolution:draconic_block>, <extendedcrafting:storage:3>, <draconicevolution:awakened_core>, <extendedcrafting:storage:3>, <draconicevolution:draconic_block>, blockAethium, cell6], 
 [<thermalexpansion:frame:148>, <mekanism:machineblock3:1>, <extendedcrafting:singularity:5>, <draconicevolution:awakened_core>, <environmentaltech:solar_cont_5>, <draconicevolution:awakened_core>, <extendedcrafting:singularity:6>, <mekanism:machineblock3:1>, <thermalexpansion:frame:148>], 
-[cell6, blockAethium, <draconicevolution:draconic_block>, <extendedcrafting:storage:3>, <draconicevolution:reactor_component>, <extendedcrafting:storage:3>, <draconicevolution:draconic_block>, blockAethium, cell6], 
+[cell6, blockAethium, <draconicevolution:draconic_block>, <extendedcrafting:storage:3>, <draconicevolution:awakened_core>, <extendedcrafting:storage:3>, <draconicevolution:draconic_block>, blockAethium, cell6], 
 [cell6, blockAethium, <extendedcrafting:material:32>, <draconicevolution:draconic_block>, <extendedcrafting:singularity:29>, <draconicevolution:draconic_block>, <extendedcrafting:material:32>, blockAethium, cell6], 
 [cell6, <extendedcrafting:material:32>, blockAethium, blockAethium, <ic2:nuclear:10>, blockAethium, blockAethium, <extendedcrafting:material:32>, cell6], 
-[<compactsolars:compact_solar_block:2>, cell6, cell6, cell6, <thermalexpansion:frame:148>, cell6, cell6, cell6, <compactsolars:compact_solar_block:2>]]);  
+[<nuclearcraft:solar_panel_elite>, cell6, cell6, cell6, <thermalexpansion:frame:148>, cell6, cell6, cell6, <nuclearcraft:solar_panel_elite>]]);  
 	
 # Void Ore Miner Tier 5-6
 recipes.remove(<environmentaltech:void_ore_miner_cont_5>);
