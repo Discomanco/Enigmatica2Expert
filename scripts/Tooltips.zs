@@ -584,3 +584,11 @@ for item in CoTGems {
 
 # Corium Bucket
 	<forge:bucketfilled>.withTag({FluidName: "corium", Amount: 1000}).addTooltip(format.green("Obtainable by melting down a Fission Reactor"));
+
+# Modular Machine descriptions
+	addDescription(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:starlight_crafting_engine"}), "Needs 1 Item Input, 1 Fluid Input, 1 Item Output");
+	addDescription(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:advanced_metallurgic_fabricator"}), "Needs 1 Item Input, 1 Fluid Input, 1 Item Output");
+	addDescription(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:arcane_crafting_engine"}), "Needs 1 Item Input, 1 Item Output");
+	addDescription(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:advanced_thermionic_fabricator"}), "Needs 1 Item Input, 1 Fluid Input, 1 Item Output");
+	addDescription(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:advanced_scrap_factory"}), "Needs 1 Fluid Input, 1 Item Output");
+	addDescription(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:advanced_carpenter"}), "Needs 1 Item Input, 1 Fluid Input, 1 Item Output");

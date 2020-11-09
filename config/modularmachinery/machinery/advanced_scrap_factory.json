@@ -119,7 +119,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "casings_modular"
             ]
         },
         {
@@ -159,7 +159,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "casings_modular"
             ]
         },
         {
@@ -311,7 +311,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "casings_item_out"
+                "casings_modular"
             ]
         },
         {
@@ -343,7 +343,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "casings_fluid_in"
+                "casings_modular"
             ]
         },
         {
