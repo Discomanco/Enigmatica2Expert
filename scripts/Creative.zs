@@ -133,13 +133,13 @@ var twilightForestMasterTrophy = <simple_trophies:trophy>.withTag({
 	<extrautils2:screen>, <opencomputers:screen3>, 
 	<opencomputers:screen2>, <opencomputers:screen1>]);
 
-# RFTools Creative Powercell / EnderIO Creative Capacitor Bank
+# EnderIO Creative Capacitor Bank
 	mods.extendedcrafting.TableCrafting.addShaped(4, <enderio:block_cap_bank>.withTag({"enderio:energy": 1000000000}),	
 	[[rtgFuel, resonantFrame, ingotUltimate, ingotUltimate, ingotUltimate, ingotUltimate, ingotUltimate, resonantFrame, rtgFuel], 
 	[resonantFrame, <nuclearcraft:rtg_californium>, elitePlating, anglesite, dilithium, anglesite, elitePlating, <nuclearcraft:rtg_californium>, resonantFrame], 
 	[ingotUltimate, elitePlating, ultProvider, resonantCube, <environmentaltech:solar_cont_5>, resonantCube, ultProvider, elitePlating, ingotUltimate], 
 	[ingotUltimate, benitoite, resonantCube, ultCell, <draconicevolution:draconic_energy_core>, ultCell, resonantCube, benitoite, ingotUltimate], 
-	[ingotUltimate, dilithium, <environmentaltech:solar_cont_4>, <extrautils2:rainbowgenerator>, ultCatalyst, <extrautils2:rainbowgenerator>, <environmentaltech:solar_cont_4>, dilithium, ingotUltimate], 
+	[ingotUltimate, dilithium, <environmentaltech:solar_cont_4>, <extrautils2:decorativesolid:8>, ultCatalyst, <extrautils2:decorativesolid:8>, <environmentaltech:solar_cont_4>, dilithium, ingotUltimate], 
 	[ingotUltimate, benitoite, resonantCube, ultCell, <draconicevolution:draconic_energy_core>, ultCell, resonantCube, benitoite, ingotUltimate], 
 	[ingotUltimate, elitePlating, ultProvider, resonantCube, <environmentaltech:solar_cont_5>, resonantCube, ultProvider, elitePlating, ingotUltimate], 
 	[resonantFrame, <nuclearcraft:rtg_californium>, elitePlating, anglesite, dilithium, anglesite, elitePlating, <nuclearcraft:rtg_californium>, resonantFrame], 
