@@ -118,30 +118,25 @@ print("--- loading ArmoreableMobs.zs ---");
 
 # *======= Twilight Armor =======*
 
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("head", <twilightforest:ironwood_helmet>.withTag({ench: [{lvl: 1 as short, id: 6 as short}]}), 1, 0.25));
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("chest", <twilightforest:ironwood_chestplate>.withTag({ench: [{lvl: 1 as short, id: 0 as short}]}), 1, 0.25));
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("legs", <twilightforest:ironwood_leggings>.withTag({ench: [{lvl: 1 as short, id: 0 as short}]}), 1, 0.25));
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("feet", <twilightforest:ironwood_boots>.withTag({ench: [{lvl: 1 as short, id: 2 as short}]}), 1, 0.25));
+	twilightGroup.addArmor(ArmorHandler.createArmorSlot("head", <twilightforest:ironwood_helmet:110>.withTag({ench: [{lvl: 1 as short, id: 6 as short}]}), 1, 0.25));
+	twilightGroup.addArmor(ArmorHandler.createArmorSlot("chest", <twilightforest:ironwood_chestplate:160>.withTag({ench: [{lvl: 1 as short, id: 0 as short}]}), 1, 0.25));
+	twilightGroup.addArmor(ArmorHandler.createArmorSlot("legs", <twilightforest:ironwood_leggings:150>.withTag({ench: [{lvl: 1 as short, id: 0 as short}]}), 1, 0.25));
+	twilightGroup.addArmor(ArmorHandler.createArmorSlot("feet", <twilightforest:ironwood_boots:130>.withTag({ench: [{lvl: 1 as short, id: 2 as short}]}), 1, 0.25));
 
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("head", <twilightforest:knightmetal_helmet>, 1, 0.25));
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("chest", <twilightforest:knightmetal_chestplate>, 1, 0.25));
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("legs", <twilightforest:knightmetal_leggings>, 1, 0.25));
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("feet", <twilightforest:knightmetal_boots>, 1, 0.25));
+	twilightGroup.addArmor(ArmorHandler.createArmorSlot("head", <twilightforest:knightmetal_helmet:110>, 1, 0.25));
+	twilightGroup.addArmor(ArmorHandler.createArmorSlot("chest", <twilightforest:knightmetal_chestplate:160>, 1, 0.25));
+	twilightGroup.addArmor(ArmorHandler.createArmorSlot("legs", <twilightforest:knightmetal_leggings:150>, 1, 0.25));
+	twilightGroup.addArmor(ArmorHandler.createArmorSlot("feet", <twilightforest:knightmetal_boots:130>, 1, 0.25));
 
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("head", <twilightforest:steeleaf_helmet>.withTag({ench: [{lvl: 2 as short, id: 4 as short}]}), 1, 0.25));
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("chest", <twilightforest:steeleaf_chestplate>.withTag({ench: [{lvl: 2 as short, id: 3 as short}]}), 1, 0.25));
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("legs", <twilightforest:steeleaf_leggings>.withTag({ench: [{lvl: 2 as short, id: 1 as short}]}), 1, 0.25));
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("feet", <twilightforest:steeleaf_boots>.withTag({ench: [{lvl: 2 as short, id: 2 as short}]}), 1, 0.25));
+	twilightGroup.addArmor(ArmorHandler.createArmorSlot("head", <twilightforest:steeleaf_helmet:55>.withTag({ench: [{lvl: 2 as short, id: 4 as short}]}), 1, 0.25));
+	twilightGroup.addArmor(ArmorHandler.createArmorSlot("chest", <twilightforest:steeleaf_chestplate:80>.withTag({ench: [{lvl: 2 as short, id: 3 as short}]}), 1, 0.25));
+	twilightGroup.addArmor(ArmorHandler.createArmorSlot("legs", <twilightforest:steeleaf_leggings:75>.withTag({ench: [{lvl: 2 as short, id: 1 as short}]}), 1, 0.25));
+	twilightGroup.addArmor(ArmorHandler.createArmorSlot("feet", <twilightforest:steeleaf_boots:65>.withTag({ench: [{lvl: 2 as short, id: 2 as short}]}), 1, 0.25));
 
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("head", <twilightforest:fiery_helmet>, 1, 0.25));
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("chest", <twilightforest:fiery_chestplate>, 1, 0.25));
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("legs", <twilightforest:fiery_leggings>, 1, 0.25));
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("feet", <twilightforest:fiery_boots>, 1, 0.25));
-	
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("head", <twilightforest:ironwood_helmet>.withTag({ench: [{lvl: 1 as short, id: 6 as short}]}), 1, 0.25));
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("chest", <twilightforest:ironwood_chestplate>.withTag({ench: [{lvl: 1 as short, id: 0 as short}]}), 1, 0.25));
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("legs", <twilightforest:ironwood_leggings>.withTag({ench: [{lvl: 1 as short, id: 0 as short}]}), 1, 0.25));
-	twilightGroup.addArmor(ArmorHandler.createArmorSlot("feet", <twilightforest:ironwood_boots>.withTag({ench: [{lvl: 1 as short, id: 2 as short}]}), 1, 0.25));
+	twilightGroup.addArmor(ArmorHandler.createArmorSlot("head", <twilightforest:fiery_helmet:137>, 1, 0.25));
+	twilightGroup.addArmor(ArmorHandler.createArmorSlot("chest", <twilightforest:fiery_chestplate:200>, 1, 0.25));
+	twilightGroup.addArmor(ArmorHandler.createArmorSlot("legs", <twilightforest:fiery_leggings:187>, 1, 0.25));
+	twilightGroup.addArmor(ArmorHandler.createArmorSlot("feet", <twilightforest:fiery_boots:163>, 1, 0.25));
 	
 	twilightGroup.addEntity(zombie);
 	twilightGroup.addEntity(zombieStrong);
@@ -154,25 +149,25 @@ print("--- loading ArmoreableMobs.zs ---");
 
 # *======= Mystical Agriculture Armor =======*
 		
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("head", <mysticalagriculture:inferium_helmet>, 10, 0.1));
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mysticalagriculture:inferium_chestplate>, 10, 0.1));
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mysticalagriculture:inferium_leggings>, 10, 0.1));
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mysticalagriculture:inferium_boots>, 10, 0.1));
+	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("head", <mysticalagriculture:inferium_helmet:110>, 10, 0.1));
+	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mysticalagriculture:inferium_chestplate:160>, 10, 0.1));
+	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mysticalagriculture:inferium_leggings:150>, 10, 0.1));
+	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mysticalagriculture:inferium_boots:130>, 10, 0.1));
 
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("head", <mysticalagriculture:prudentium_helmet>, 7, 0.1));
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mysticalagriculture:prudentium_chestplate>, 7, 0.1));
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mysticalagriculture:prudentium_leggings>, 7, 0.1));
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mysticalagriculture:prudentium_boots>, 7, 0.1));
+	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("head", <mysticalagriculture:prudentium_helmet:220>, 7, 0.1));
+	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mysticalagriculture:prudentium_chestplate:320>, 7, 0.1));
+	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mysticalagriculture:prudentium_leggings:300>, 7, 0.1));
+	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mysticalagriculture:prudentium_boots:260>, 7, 0.1));
 		
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("head", <mysticalagriculture:intermedium_helmet>, 5, 0.1));
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mysticalagriculture:intermedium_chestplate>, 5, 0.1));
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mysticalagriculture:intermedium_leggings>, 5, 0.1));
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mysticalagriculture:intermedium_boots>, 5, 0.1));
+	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("head", <mysticalagriculture:intermedium_helmet:440>, 5, 0.1));
+	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mysticalagriculture:intermedium_chestplate:640>, 5, 0.1));
+	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mysticalagriculture:intermedium_leggings:600>, 5, 0.1));
+	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mysticalagriculture:intermedium_boots:520>, 5, 0.1));
 
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("head", <mysticalagriculture:superium_helmet>, 2, 0.1));
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mysticalagriculture:superium_chestplate>, 2, 0.1));
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mysticalagriculture:superium_leggings>, 2, 0.1));
-	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mysticalagriculture:superium_boots>, 2, 0.1));
+	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("head", <mysticalagriculture:superium_helmet:880>, 2, 0.1));
+	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <mysticalagriculture:superium_chestplate:1280>, 2, 0.1));
+	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <mysticalagriculture:superium_leggings:1200>, 2, 0.1));
+	mysticalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <mysticalagriculture:superium_boots:1040>, 2, 0.1));
 
 	mysticalGroup.addEntity(zombie);
 	mysticalGroup.addEntity(zombieStrong);
@@ -185,25 +180,25 @@ print("--- loading ArmoreableMobs.zs ---");
 		
 # *======= Magical Armor =======*
 		
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("head", <botania:manaweavehelm>, 10, 0.15));
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <botania:manaweavechest>, 10, 0.15));
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <botania:manaweavelegs>, 10, 0.15));
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <botania:manaweaveboots>, 10, 0.15));
+	magicalGroup.addArmor(ArmorHandler.createArmorSlot("head", <botania:manaweavehelm:27>, 10, 0.15));
+	magicalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <botania:manaweavechest:40>, 10, 0.15));
+	magicalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <botania:manaweavelegs:37>, 10, 0.15));
+	magicalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <botania:manaweaveboots:32>, 10, 0.15));
 		
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("head", <botania:manasteelhelm>, 10, 0.1));
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <botania:manasteelchest>, 10, 0.1));
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <botania:manasteellegs>, 10, 0.1));
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <botania:manasteelboots>, 10, 0.1));
+	magicalGroup.addArmor(ArmorHandler.createArmorSlot("head", <botania:manasteelhelm:88>, 10, 0.1));
+	magicalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <botania:manasteelchest:128>, 10, 0.1));
+	magicalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <botania:manasteellegs:120>, 10, 0.1));
+	magicalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <botania:manasteelboots:104>, 10, 0.1));
 
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("head", <botania:elementiumhelm>, 4, 0.01));
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <botania:elementiumchest>, 4, 0.01));
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <botania:elementiumlegs>, 4, 0.01));
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <botania:elementiumboots>, 4, 0.01));
+	magicalGroup.addArmor(ArmorHandler.createArmorSlot("head", <botania:elementiumhelm:99>, 4, 0.01));
+	magicalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <botania:elementiumchest:144>, 4, 0.01));
+	magicalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <botania:elementiumlegs:135>, 4, 0.01));
+	magicalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <botania:elementiumboots:117>, 4, 0.01));
 
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("head", <botania:terrasteelhelm>, 1, 0.003));
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <botania:terrasteelchest>, 1, 0.003));
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <botania:terrasteellegs>, 1, 0.003));
-	magicalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <botania:terrasteelboots>, 1, 0.003));
+	magicalGroup.addArmor(ArmorHandler.createArmorSlot("head", <botania:terrasteelhelm:187>, 1, 0.003));
+	magicalGroup.addArmor(ArmorHandler.createArmorSlot("chest", <botania:terrasteelchest:272>, 1, 0.003));
+	magicalGroup.addArmor(ArmorHandler.createArmorSlot("legs", <botania:terrasteellegs:255>, 1, 0.003));
+	magicalGroup.addArmor(ArmorHandler.createArmorSlot("feet", <botania:terrasteelboots:221>, 1, 0.003));
 	
 	magicalGroup.addEntity(zombie);
 	magicalGroup.addEntity(zombieStrong);
@@ -216,25 +211,25 @@ print("--- loading ArmoreableMobs.zs ---");
 	
 # *======= NuclearCraft Armor =======*
 
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("head", <nuclearcraft:helm_boron>, 10, 0.2));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("chest", <nuclearcraft:chest_boron>, 10, 0.2));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("legs", <nuclearcraft:legs_boron>, 10, 0.2));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("feet", <nuclearcraft:boots_boron>, 10, 0.2));
+	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("head", <nuclearcraft:helm_boron:121>, 10, 0.2));
+	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("chest", <nuclearcraft:chest_boron:176>, 10, 0.2));
+	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("legs", <nuclearcraft:legs_boron:165>, 10, 0.2));
+	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("feet", <nuclearcraft:boots_boron:143>, 10, 0.2));
 
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("head", <nuclearcraft:helm_tough>, 8, 0.04));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("chest", <nuclearcraft:chest_tough>, 8, 0.04));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("legs", <nuclearcraft:legs_tough>, 8, 0.04));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("feet", <nuclearcraft:boots_tough>, 8, 0.04));
+	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("head", <nuclearcraft:helm_tough:165>, 8, 0.04));
+	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("chest", <nuclearcraft:chest_tough:240>, 8, 0.04));
+	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("legs", <nuclearcraft:legs_tough:225>, 8, 0.04));
+	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("feet", <nuclearcraft:boots_tough:170>, 8, 0.04));
 		
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("head", <nuclearcraft:helm_hard_carbon>, 4, 0.01));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("chest", <nuclearcraft:chest_hard_carbon>, 4, 0.01));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("legs", <nuclearcraft:legs_hard_carbon>, 4, 0.01));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("feet", <nuclearcraft:boots_hard_carbon>, 4, 0.01));
+	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("head", <nuclearcraft:helm_hard_carbon:162>, 4, 0.01));
+	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("chest", <nuclearcraft:chest_hard_carbon:272>, 4, 0.01));
+	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("legs", <nuclearcraft:legs_hard_carbon:255>, 4, 0.01));
+	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("feet", <nuclearcraft:boots_hard_carbon:221>, 4, 0.01));
 
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("head", <nuclearcraft:helm_boron_nitride>, 3, 0.001));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("chest", <nuclearcraft:chest_boron_nitride>, 3, 0.001));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("legs", <nuclearcraft:legs_boron_nitride>, 3, 0.001));
-	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("feet", <nuclearcraft:boots_boron_nitride>, 3, 0.001));
+	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("head", <nuclearcraft:helm_boron_nitride:231>, 3, 0.001));
+	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("chest", <nuclearcraft:chest_boron_nitride:336>, 3, 0.001));
+	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("legs", <nuclearcraft:legs_boron_nitride:315>, 3, 0.001));
+	nuclearGroup.addArmor(ArmorHandler.createArmorSlot("feet", <nuclearcraft:boots_boron_nitride:273>, 3, 0.001));
 
 	nuclearGroup.addEntity(zombie);
 	nuclearGroup.addEntity(zombieStrong);
@@ -247,25 +242,25 @@ print("--- loading ArmoreableMobs.zs ---");
 	
 # *======= Vanilla Armor =======*
 		
-	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <minecraft:leather_helmet>, 1, 0.5));
-	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <minecraft:leather_chestplate>, 1, 0.5));
-	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <minecraft:leather_leggings>, 1, 0.5));
-	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:leather_boots>, 1, 0.5));
+	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <minecraft:leather_helmet:27>, 1, 0.5));
+	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <minecraft:leather_chestplate:40>, 1, 0.5));
+	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <minecraft:leather_leggings:37>, 1, 0.5));
+	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:leather_boots:32>, 1, 0.5));
 
-	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <minecraft:iron_helmet>, 1, 0.2));
-	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <minecraft:iron_chestplate>, 1, 0.2));
-	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <minecraft:iron_leggings>, 1, 0.2));
-	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:iron_boots>, 1, 0.2));
+	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <minecraft:iron_helmet:82>, 1, 0.2));
+	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <minecraft:iron_chestplate:120>, 1, 0.2));
+	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <minecraft:iron_leggings:112>, 1, 0.2));
+	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:iron_boots:97>, 1, 0.2));
 
-	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <minecraft:golden_helmet>, 1, 0.1));
-	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <minecraft:golden_chestplate>, 1, 0.1));
-	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <minecraft:golden_leggings>, 1, 0.1));
-	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:golden_boots>, 1, 0.1));
+	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <minecraft:golden_helmet:38>, 1, 0.1));
+	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <minecraft:golden_chestplate:56>, 1, 0.1));
+	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <minecraft:golden_leggings:52>, 1, 0.1));
+	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:golden_boots:45>, 1, 0.1));
 
-	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <minecraft:diamond_helmet>, 1, 0.025));
-	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <minecraft:diamond_chestplate>, 1, 0.025));
-	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <minecraft:diamond_leggings>, 1, 0.025));
-	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:diamond_boots>, 1, 0.025));
+	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("head", <minecraft:diamond_helmet:156>, 1, 0.025));
+	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("chest", <minecraft:diamond_chestplate:264>, 1, 0.025));
+	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("legs", <minecraft:diamond_leggings:247>, 1, 0.025));
+	vanillaGroup.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:diamond_boots:214>, 1, 0.025));
 	
 	vanillaGroup.addEntity(zombie);
 	vanillaGroup.addEntity(zombieStrong);
@@ -278,10 +273,10 @@ print("--- loading ArmoreableMobs.zs ---");
 	
 # *======= Energy Armor =======*
 		
-	energyGroup.addArmor(ArmorHandler.createArmorSlot("head", <immersiveengineering:faraday_suit_head>, 10, 0.1));
-	energyGroup.addArmor(ArmorHandler.createArmorSlot("chest", <immersiveengineering:faraday_suit_chest>, 10, 0.1));
-	energyGroup.addArmor(ArmorHandler.createArmorSlot("legs", <immersiveengineering:faraday_suit_legs>, 10, 0.1));
-	energyGroup.addArmor(ArmorHandler.createArmorSlot("feet", <immersiveengineering:faraday_suit_feet>, 10, 0.1));
+	energyGroup.addArmor(ArmorHandler.createArmorSlot("head", <immersiveengineering:faraday_suit_head:5>, 10, 0.1));
+	energyGroup.addArmor(ArmorHandler.createArmorSlot("chest", <immersiveengineering:faraday_suit_chest:8>, 10, 0.1));
+	energyGroup.addArmor(ArmorHandler.createArmorSlot("legs", <immersiveengineering:faraday_suit_legs:7>, 10, 0.1));
+	energyGroup.addArmor(ArmorHandler.createArmorSlot("feet", <immersiveengineering:faraday_suit_feet:6>, 10, 0.1));
 
 	energyGroup.addArmor(ArmorHandler.createArmorSlot("head", <ic2:nano_helmet>, 5, 0.05));
 	energyGroup.addArmor(ArmorHandler.createArmorSlot("chest", <ic2:nano_chestplate>, 5, 0.05));
@@ -324,10 +319,10 @@ print("--- loading ArmoreableMobs.zs ---");
 	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("legs", <ic2:quantum_leggings>, 1, 0.01));
 	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("feet", <ic2:quantum_boots>, 1, 0.01));
 	
-	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("head", <botania:terrasteelhelm>, 1, 0.003));
-	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("chest", <botania:terrasteelchest>, 1, 0.003));
-	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("legs", <botania:terrasteellegs>, 1, 0.003));
-	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("feet", <botania:terrasteelboots>, 1, 0.003));
+	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("head", <botania:terrasteelhelm:187>, 1, 0.003));
+	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("chest", <botania:terrasteelchest:272>, 1, 0.003));
+	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("legs", <botania:terrasteellegs:255>, 1, 0.003));
+	skeletonGroup.addArmor(ArmorHandler.createArmorSlot("feet", <botania:terrasteelboots:221>, 1, 0.003));
 	
 	skeletonGroup.addEntity(skeleton);
 	skeletonGroup.addEntity(skeletonBoss);
