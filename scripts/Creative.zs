@@ -169,7 +169,7 @@ var twilightForestMasterTrophy = <simple_trophies:trophy>.withTag({
 	[ingotMirion, <botania:laputashard>, benitoite, benitoite, benitoite, benitoite, benitoite, <botania:laputashard>, ingotMirion], 
 	[<botania:pool:3>, ingotMirion, ingotMirion, ingotMirion, <botania:pool:3>, ingotMirion, ingotMirion, ingotMirion, <botania:pool:3>]]);
 
-# Mekanism Creative Tank
+# Mekanism Creative Tank 
 	mods.extendedcrafting.TableCrafting.addShaped(4, <mekanism:machineblock2:11>.withTag({tier: 4, mekData:{}}), 
 	[[<industrialforegoing:black_hole_tank>, <forge:bucketfilled>.withTag({FluidName: "milk_goat", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "blood", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "liquiddna", Amount: 1000}), <thermalexpansion:tank>.withTag({Fluid: {FluidName: "bio.ethanol", Amount: 32000}}), <forge:bucketfilled>.withTag({FluidName: "juice", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "mutagen", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "biomass", Amount: 1000}), <industrialforegoing:black_hole_tank>], 
 	[<forge:bucketfilled>.withTag({FluidName: "empoweredoil", Amount: 1000}), resonantFrame, ingotUltimate, ingotUltimate, anglesite, ingotUltimate, ingotUltimate, resonantFrame, <forge:bucketfilled>.withTag({FluidName: "witchwater", Amount: 1000})], 
